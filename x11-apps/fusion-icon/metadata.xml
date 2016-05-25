@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<maintainer type="project">
-		<email>desktop-effects@gentoo.org</email>
-		<name>Desktop effects</name>
-	</maintainer>
-	<longdescription lang="en">Compiz Fusion Tray Icon and Manager.</longdescription>
+  <use>
+    <flag name="gtk2">Build with GTK+2</flag>
+	<flag name="gtk3">Build with GTK+3</flag>
+	<flag name="qt4">Build with QT4</flag>
+	<flag name="qt5">Build with QT5</flag>
+  </use>
+  <maintainer type="person">
+    <email>kajzersoze72@gmail.com</email>
+    <name>kajzer</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>NP-Hardass@gentoo.org</email>
+    <name>NP-Hardass</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>desktop-effects@gentoo.org</email>
+    <name>Desktop Effects</name>
+  </maintainer>
+  <longdescription lang="en">Compiz Fusion Tray Icon and Manager.</longdescription>
 </pkgmetadata>
