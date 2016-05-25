@@ -2,20 +2,25 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <use>
-    <flag name="fuse">
-      Enables support for the filesystem in userspace plugin through <pkg>sys-fs/fuse</pkg>.
-    </flag>
-    <flag name="gconf">
-      Enable the GConf-based configuration backend; it is not required
-      to work with GNOME, and might actually be faster if it's not
-      used.
-    </flag>
+    <flag name="compizconfig">Enable compizconfig support in gtk-window-decorator</flag>
+    <flag name="fuse">Enables support for the filesystem in userspace plugin through <pkg>sys-fs/fuse</pkg>.</flag>
+    <flag name="gsettings">Enable gsettings gwd support</flag>
+    <flag name="gtk">Build the gtk window decorator</flag>
+    <flag name="gtk3">Build with GTK+3 instead of GTK+2</flag>
+    <flag name="marco">Enable marco theme support</flag>
+    <flag name="mate">Build MATE compatibility plugin</flag>
   </use>
+  <maintainer type="person">
+    <email>kajzersoze72@gmail.com</email>
+    <name>kajzer</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>NP-Hardass@gentoo.org</email>
+    <name>NP-Hardass</name>
+  </maintainer>
   <maintainer type="project">
     <email>desktop-effects@gentoo.org</email>
-    <name>Desktop effects</name>
+    <name>Desktop Effects</name>
   </maintainer>
-  <longdescription>
-    compiz is a compositing window manager that uses 3D graphics acceleration via OpenGL.
-  </longdescription>
+  <longdescription>compiz is a compositing window manager that uses 3D graphics acceleration via OpenGL.</longdescription>
 </pkgmetadata>
