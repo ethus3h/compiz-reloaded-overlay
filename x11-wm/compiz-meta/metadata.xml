@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <use>
+    <flag name="ccsm">Enable ccsm support</flag>
+    <flag name="emerald">Enable emerald window decorator</flag>
+    <flag name="fusionicon">Enable fusion icon support</flag>
+    <flag name="gtk3">Build with GTK+3 instead of GTK+2</flag>
+    <flag name="manager">Enable compiz manager</flag>
+    <flag name="simpleccsm">Enable simple ccsm</flag>
+  </use>
+  <maintainer type="person">
+    <email>kajzersoze72@gmail.com</email>
+    <name>kajzer</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>NP-Hardass@gentoo.org</email>
+    <name>NP-Hardass</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>desktop-effects@gentoo.org</email>
+    <name>Desktop Effects</name>
+  </maintainer>
+  <longdescription>
+    compiz meta package.
+  </longdescription>
+</pkgmetadata>
