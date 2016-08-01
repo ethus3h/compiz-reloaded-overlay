@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="libnotify"
 
 RDEPEND="
-	>=gnome-base/librsvg-2.14.0:2
+	gnome-base/librsvg
 	libnotify? ( x11-libs/libnotify )
 	>=x11-libs/compiz-bcop-0.7.3
 	<x11-libs/compiz-bcop-0.9

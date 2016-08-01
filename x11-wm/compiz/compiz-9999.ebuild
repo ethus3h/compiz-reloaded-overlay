@@ -56,7 +56,7 @@ COMMONDEPEND="
 	)
 	marco? ( x11-wm/marco )
 	svg? (
-		>=gnome-base/librsvg-2.14.0:2
+		gnome-base/librsvg
 		>=x11-libs/cairo-1.4[X]
 	)
 "

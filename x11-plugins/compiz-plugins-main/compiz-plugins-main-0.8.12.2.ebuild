@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-	>=gnome-base/librsvg-2.14.0:2
+	gnome-base/librsvg
 	virtual/jpeg:0
 	virtual/glu
 	>=x11-libs/compiz-bcop-0.7.3

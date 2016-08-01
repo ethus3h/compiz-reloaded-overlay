@@ -18,7 +18,6 @@ IUSE="gtk2 gtk3 qt4 qt5"
 REQUIRED_USE="?? ( gtk2 gtk3 ) ?? ( qt4 qt5 )  || ( gtk2 gtk3 qt4 qt5 )"
 
 RDEPEND="
-	dev-libs/libappindicator:=
 	>=dev-python/compizconfig-python-0.8.12[${PYTHON_USEDEP}]
 	<dev-python/compizconfig-python-0.9
 	dev-python/pygobject:=[${PYTHON_USEDEP}]
@@ -26,8 +25,14 @@ RDEPEND="
 	x11-apps/mesa-progs
 	>=x11-wm/compiz-0.8
 	<x11-wm/compiz-0.9
-	gtk2? (	x11-wm/compiz[-gtk3] )
-	gtk3? (	x11-wm/compiz[gtk3]	)
+	gtk2? (	
+		dev-libs/libappindicator:2
+		x11-wm/compiz[-gtk3] 
+	)
+	gtk3? (	
+		dev-libs/libappindicator:3
+		x11-wm/compiz[gtk3]	
+	)
 	!gtk3? ( x11-wm/compiz[gtk(+),-gtk3] )
 	qt4? ( dev-python/PyQt4[${PYTHON_USEDEP}] )
 	qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )

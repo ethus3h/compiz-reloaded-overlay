@@ -15,7 +15,7 @@ SLOT="0"
 IUSE="libnotify"
 
 RDEPEND="
-	>=gnome-base/librsvg-2.14.0:2
+	gnome-base/librsvg
 	libnotify? ( x11-libs/libnotify )
 	>=x11-libs/compiz-bcop-${PV}
 	>=x11-plugins/compiz-plugins-main-${PV}
