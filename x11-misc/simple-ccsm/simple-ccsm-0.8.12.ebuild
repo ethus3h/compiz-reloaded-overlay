@@ -28,8 +28,7 @@ RDEPEND="
 	dev-python/pycairo[${PYTHON_USEDEP}]
 	>=x11-misc/ccsm-0.8[gtk3=,${PYTHON_USEDEP}]
 	<x11-misc/ccsm-0.9
-	gtk3? (	dev-python/pygobject[${PYTHON_USEDEP}] )
-	!gtk3? ( >=dev-python/pygtk-2.12:2[${PYTHON_USEDEP}] )
+	dev-python/pygobject[${PYTHON_USEDEP}]
 "
 
 python_prepare_all() {

@@ -20,8 +20,7 @@ RDEPEND="
 	dev-python/pycairo[${PYTHON_USEDEP}]
 	>=dev-python/compizconfig-python-${PV}[${PYTHON_USEDEP}]
 	gnome-base/librsvg
-	gtk3? (  dev-python/pygobject[${PYTHON_USEDEP}] )
-	!gtk3? ( >=dev-python/pygtk-2.12:2[${PYTHON_USEDEP}] )
+	dev-python/pygobject[${PYTHON_USEDEP}]
 "
 
 python_prepare_all() {
