@@ -11,10 +11,11 @@ SRC_URI=""
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="+ccsm +emerald +fusionicon gtk3 manager simpleccsm"
+IUSE="boxmenu +ccsm +emerald +fusionicon gtk3 manager simpleccsm"
 
 RDEPEND="
 	>=x11-plugins/compiz-plugins-meta-${PV}
+	boxmenu? ( >=x11-apps/compiz-boxmenu-1.1.12 )
 	ccsm? ( >=x11-misc/ccsm-${PV}[gtk3=] )
 	emerald? ( >=x11-wm/emerald-${PV}[gtk3=] )
 	fusionicon? ( >=x11-apps/fusion-icon-0.2.2 )

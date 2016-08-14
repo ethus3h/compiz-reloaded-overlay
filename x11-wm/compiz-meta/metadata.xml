@@ -2,6 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <use>
+	<flag name="boxmenu">Enable compiz boxmenu</flag>
     <flag name="ccsm">Enable ccsm support</flag>
     <flag name="emerald">Enable emerald window decorator</flag>
     <flag name="fusionicon">Enable fusion icon support</flag>
