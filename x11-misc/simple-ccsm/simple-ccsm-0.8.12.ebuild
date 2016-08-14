@@ -26,10 +26,9 @@ RDEPEND="
 	>=dev-python/compizconfig-python-0.8[${PYTHON_USEDEP}]
 	<dev-python/compizconfig-python-0.9
 	dev-python/pycairo[${PYTHON_USEDEP}]
+	dev-python/pygobject:3[${PYTHON_USEDEP}]
 	>=x11-misc/ccsm-0.8[gtk3=,${PYTHON_USEDEP}]
 	<x11-misc/ccsm-0.9
-	gtk3? (	dev-python/pygobject:3[${PYTHON_USEDEP}] )
-	!gtk3? ( dev-python/pygobject:2[${PYTHON_USEDEP}] )
 "
 
 python_prepare_all() {
