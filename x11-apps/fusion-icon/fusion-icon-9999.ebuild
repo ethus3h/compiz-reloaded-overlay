@@ -18,17 +18,18 @@ REQUIRED_USE="?? ( gtk2 gtk3 ) ?? ( qt4 qt5 )  || ( gtk2 gtk3 qt4 qt5 )"
 
 RDEPEND="
 	>=dev-python/compizconfig-python-${PV}[${PYTHON_USEDEP}]
-	dev-python/pygobject:=[${PYTHON_USEDEP}]
 	x11-apps/xvinfo
 	x11-apps/mesa-progs
 	>=x11-wm/compiz-${PV}
-	gtk2? (	
+	gtk2? (
 		dev-libs/libappindicator:2
-		x11-wm/compiz[-gtk3] 
+		dev-python/pygobject:2[${PYTHON_USEDEP}]
+		x11-wm/compiz[-gtk3]
 	)
-	gtk3? (	
+	gtk3? (
 		dev-libs/libappindicator:3
-		x11-wm/compiz[gtk3]	
+		dev-python/pygobject:3[${PYTHON_USEDEP}]
+		x11-wm/compiz[gtk3]
 	)
 	!gtk3? ( x11-wm/compiz[gtk(+),-gtk3] )
 	qt4? ( dev-python/PyQt4[${PYTHON_USEDEP}] )

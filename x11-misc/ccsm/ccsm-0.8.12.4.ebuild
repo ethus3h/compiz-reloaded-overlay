@@ -22,7 +22,8 @@ RDEPEND="
 	>=dev-python/compizconfig-python-0.8.12[${PYTHON_USEDEP}]
 	<dev-python/compizconfig-python-0.9
 	gnome-base/librsvg
-	dev-python/pygobject[${PYTHON_USEDEP}]
+	gtk3? (	dev-python/pygobject:3[${PYTHON_USEDEP}] )
+	!gtk3? ( dev-python/pygobject:2[${PYTHON_USEDEP}] )
 "
 
 python_prepare_all() {
