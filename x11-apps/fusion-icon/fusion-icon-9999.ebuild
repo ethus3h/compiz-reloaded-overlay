@@ -11,7 +11,7 @@ DESCRIPTION="Fusion Icon (Compiz tray icon) for Compiz 0.8.x series"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="git://github.com/compiz-reloaded/fusion-icon.git"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 IUSE="gtk2 gtk3 qt4 qt5"
 REQUIRED_USE="?? ( gtk2 gtk3 ) ?? ( qt4 qt5 )  || ( gtk2 gtk3 qt4 qt5 )"

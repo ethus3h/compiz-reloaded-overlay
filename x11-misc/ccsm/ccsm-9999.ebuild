@@ -12,7 +12,7 @@ DESCRIPTION="A graphical manager for CompizConfig Plugin (libcompizconfig)"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="git://github.com/compiz-reloaded/ccsm.git"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 IUSE="gtk3"
 

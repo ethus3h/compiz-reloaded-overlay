@@ -10,7 +10,7 @@ DESCRIPTION="OpenGL window and compositing manager"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="git://github.com/compiz-reloaded/compiz.git"
 
-LICENSE="GPL-2 LGPL-2.1 MIT"
+LICENSE="GPL-2+ LGPL-2.1 MIT"
 SLOT="0"
 IUSE="+cairo compizconfig dbus fuse gsettings +gtk gtk3 inotify +svg marco mate"
 REQUIRED_USE="compizconfig? ( gtk )

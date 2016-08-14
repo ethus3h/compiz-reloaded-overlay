@@ -10,7 +10,7 @@ DESCRIPTION="A wrapper script to start Compiz 0.8.x with proper options"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="git://github.com/compiz-reloaded/compiz-manager.git"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="x11-apps/mesa-progs

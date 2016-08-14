@@ -8,7 +8,7 @@ DESCRIPTION="Compiz Reloaded (meta)"
 HOMEPAGE="https://github.com/compiz-reloaded"
 SRC_URI=""
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 IUSE="boxmenu +ccsm +emerald +fusionicon gtk3 manager simpleccsm"
 

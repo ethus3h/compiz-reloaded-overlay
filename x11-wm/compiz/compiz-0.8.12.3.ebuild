@@ -10,7 +10,7 @@ DESCRIPTION="OpenGL window and compositing manager"
 HOMEPAGE="https://github.com/compiz-reloaded"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
 
-LICENSE="GPL-2 LGPL-2.1 MIT"
+LICENSE="GPL-2+ LGPL-2.1 MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="+cairo compizconfig dbus fuse gsettings +gtk gtk3 inotify +svg marco mate"

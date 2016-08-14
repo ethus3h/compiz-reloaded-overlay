@@ -9,7 +9,7 @@ DESCRIPTION="CompizConfig plugin required for compizconfig-settings-manager"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="git://github.com/compiz-reloaded/libcompizconfig.git"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="dev-libs/libxml2

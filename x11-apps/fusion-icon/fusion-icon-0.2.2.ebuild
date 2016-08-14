@@ -11,7 +11,7 @@ DESCRIPTION="Fusion Icon (Compiz tray icon) for Compiz 0.8.x series"
 HOMEPAGE="https://github.com/compiz-reloaded"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="gtk2 gtk3 qt4 qt5"

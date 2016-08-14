@@ -21,7 +21,7 @@ RDEPEND="
 		dev-python/pygtk
 "
 
-DEPEND="
+DEPEND="${RDEPEND}
 		dev-libs/dbus-glib
 		sys-apps/dbus
 		>=dev-libs/glib-2

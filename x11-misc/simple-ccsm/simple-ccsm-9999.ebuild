@@ -12,7 +12,7 @@ DESCRIPTION="Compiz settings manager focused on simplicity for an end-user"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="git://github.com/compiz-reloaded/simple-ccsm.git"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2+"
 SLOT="0"
 IUSE="gtk3"
 
