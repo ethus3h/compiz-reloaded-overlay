@@ -32,6 +32,7 @@ x11-apps/fusion-icon ~amd64
 x11-libs/libcompizconfig ~amd64  
 x11-misc/simple-ccsm ~amd64  
 x11-wm/compiz-meta ~amd64  
+x11-apps/compiz-boxmenu ~amd64  
 
 * Live ebuilds :  
 =x11-misc/ccsm-9999 **  
@@ -49,4 +50,4 @@ x11-wm/compiz-meta ~amd64
 =x11-libs/libcompizconfig-9999 **  
 =x11-misc/simple-ccsm-9999 **  
 =x11-wm/compiz-meta-9999 **  
-
+=x11-apps/compiz-boxmenu-9999 **  
