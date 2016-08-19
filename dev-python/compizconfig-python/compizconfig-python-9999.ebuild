@@ -4,7 +4,7 @@
 
 EAPI="6"
 
-PYTHON_COMPAT=( python{2_7,3_3,3_4,3_5} )
+PYTHON_COMPAT=( python2_7 )
 inherit autotools eutils git-r3 python-r1
 
 DESCRIPTION="Python bindings for libraries/plugins for compizconfig-settings"
