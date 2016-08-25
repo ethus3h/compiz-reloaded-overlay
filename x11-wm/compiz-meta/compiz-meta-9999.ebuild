@@ -10,14 +10,14 @@ SRC_URI=""
 
 LICENSE="GPL-2+"
 SLOT="0"
-IUSE="boxmenu +ccsm +emerald +fusionicon gtk3 manager simpleccsm"
+IUSE="boxmenu +ccsm +emerald +fusionicon manager simpleccsm"
 
 RDEPEND="
 	>=x11-plugins/compiz-plugins-meta-${PV}
 	boxmenu? ( >=x11-apps/compiz-boxmenu-${PV} )
-	ccsm? ( >=x11-misc/ccsm-${PV}[gtk3=] )
-	emerald? ( >=x11-wm/emerald-${PV}[gtk3=] )
+	ccsm? ( >=x11-misc/ccsm-${PV} )
+	emerald? ( >=x11-wm/emerald-${PV} )
 	fusionicon? ( >=x11-apps/fusion-icon-${PV} )
 	manager? ( >=x11-apps/compiz-manager-${PV} )
-	simpleccsm? ( >=x11-misc/simple-ccsm-${PV}[gtk3=] )
+	simpleccsm? ( >=x11-misc/simple-ccsm-${PV} )
 "

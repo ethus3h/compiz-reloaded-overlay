@@ -6,7 +6,6 @@
     <flag name="ccsm">Enable ccsm support</flag>
     <flag name="emerald">Enable emerald window decorator</flag>
     <flag name="fusionicon">Enable fusion icon support</flag>
-    <flag name="gtk3">Build with GTK+3 instead of GTK+2</flag>
     <flag name="manager">Enable compiz manager</flag>
     <flag name="simpleccsm">Enable simple ccsm</flag>
   </use>
