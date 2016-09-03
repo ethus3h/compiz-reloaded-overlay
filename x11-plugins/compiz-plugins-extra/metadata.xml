@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <use>
-    <flag name="libnotify">Enable desktop notification support</flag>
+    <flag name="libnotify">Enable desktop notification support and build notification plugin</flag>
   </use>
   <maintainer type="person">
     <email>kajzersoze72@gmail.com</email>

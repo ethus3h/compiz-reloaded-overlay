@@ -30,9 +30,6 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig
 "
 
-# disable notification plugin with having libnotify in the system
-PATCHES=( "${FILESDIR}"/${PN}-9999-libnotify.patch )
-
 src_prepare() {
 	default
 	eautoreconf
@@ -41,8 +38,7 @@ src_prepare() {
 src_configure() {
 	econf \
 		--enable-fast-install \
-		--disable-static \
-		$(use_enable libnotify notifications)
+		--disable-static
 }
 
 src_install() {
