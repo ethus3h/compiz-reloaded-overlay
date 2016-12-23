@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>kajzersoze72@gmail.com</email>
+    <name>kajzer</name>
+  </maintainer>
+  <maintainer type="project">
+    <email>desktop-effects@gentoo.org</email>
+    <name>Desktop Effects</name>
+  </maintainer>
+  <longdescription lang="en">CompICC</longdescription>
+</pkgmetadata>
