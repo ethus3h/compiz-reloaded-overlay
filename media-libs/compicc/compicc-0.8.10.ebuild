@@ -11,7 +11,7 @@ SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/${PV}/${P}.t
 LICENSE="BSD"
 SLOT="0"
 
-RDEPEND=">=media-libs/oyranos-0.9.0
+RDEPEND=">=media-libs/oyranos-0.9.6
 	|| ( >=x11-wm/compiz-0.8 >=x11-wm/compiz-reloaded-0.8 >=compiz-reloaded/compiz-0.8.0 )
 	x11-proto/xextproto
 	x11-libs/libXxf86vm
