@@ -6,7 +6,7 @@ EAPI=6
 
 DESCRIPTION="CompICC"
 HOMEPAGE="https://github.com/compiz-reloaded"
-SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
+SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/${PV}/${P}.tar.xz"
 
 LICENSE="BSD"
 SLOT="0"
