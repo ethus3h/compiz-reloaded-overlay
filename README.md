@@ -22,7 +22,7 @@ x11-wm/compiz ~amd64
 x11-libs/compiz-bcop ~amd64  
 dev-python/compizconfig-python ~amd64  
 x11-apps/compiz-manager ~amd64  
-=x11-plugins/compicc-9999 ~amd64
+x11-plugins/compicc-9999 ~amd64
 x11-plugins/compiz-plugins-experimental ~amd64  
 x11-plugins/compiz-plugins-extra ~amd64  
 x11-plugins/compiz-plugins-main ~amd64  
