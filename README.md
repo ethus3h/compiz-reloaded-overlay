@@ -22,6 +22,7 @@ x11-wm/compiz ~amd64
 x11-libs/compiz-bcop ~amd64  
 dev-python/compizconfig-python ~amd64  
 x11-apps/compiz-manager ~amd64  
+=x11-plugins/compicc-9999 ~amd64
 x11-plugins/compiz-plugins-experimental ~amd64  
 x11-plugins/compiz-plugins-extra ~amd64  
 x11-plugins/compiz-plugins-main ~amd64  
@@ -40,6 +41,7 @@ x11-apps/compiz-boxmenu ~amd64
 =x11-libs/compiz-bcop-9999 **  
 =dev-python/compizconfig-python-9999 **  
 =x11-apps/compiz-manager-9999 **  
+=x11-plugins/compicc-9999 **
 =x11-plugins/compiz-plugins-experimental-9999 **  
 =x11-plugins/compiz-plugins-extra-9999 **  
 =x11-plugins/compiz-plugins-main-9999 **  
