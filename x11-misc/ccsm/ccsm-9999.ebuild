@@ -20,7 +20,7 @@ RDEPEND="
 	dev-python/pycairo[${PYTHON_USEDEP}]
 	>=dev-python/compizconfig-python-${PV}[${PYTHON_USEDEP}]
 	dev-python/pygobject:3[${PYTHON_USEDEP}]
-	gnome-base/librsvg
+	gnome-base/librsvg[introspection]
 "
 
 python_prepare_all() {
