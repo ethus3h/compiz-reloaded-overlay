@@ -1,0 +1,2 @@
+=x11-plugins/compiz-plugins-meta-9999
+=x11-wm/compiz-meta-9999
