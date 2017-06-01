@@ -10,10 +10,11 @@ SRC_URI=""
 
 LICENSE="GPL-2+"
 SLOT="0"
-IUSE="experimental extra"
+IUSE="compicc experimental extra"
 
 RDEPEND="
 	>=x11-plugins/compiz-plugins-main-${PV}
+	compicc? ( >=x11-plugins/compicc-${PV} )
 	experimental? ( >=x11-plugins/compiz-plugins-experimental-${PV} )
 	extra? ( >=x11-plugins/compiz-plugins-extra-${PV} )
 "
