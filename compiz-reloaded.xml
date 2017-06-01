@@ -3,8 +3,8 @@
 <repositories xmlns="" version="1.0">
 <repo quality="experimental" status="unofficial">
    <name>compiz-reloaded</name>
-   <description>ebuilds for Wreathe</description>
-   <homepage>https://github.com/ethus3h/compiz-reloaded-overlay</homepage>
+   <description>Ebuilds for Compiz</description>
+   <homepage>https://futuramerlin.com/</homepage>
    <owner>
        <email>info@futuramerlin.com</email>
        <name>Futuramerlin</name>
