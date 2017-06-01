@@ -3,7 +3,6 @@
 
 EAPI="6"
 
-
 if [[ "${PV}" == "9999" ]]; then
 	inherit autotools eutils git-r3
 	EGIT_REPO_URI="git://github.com/ethus3h/${PN}.git"
