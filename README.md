@@ -1,4 +1,4 @@
-# compiz-reloaded-overlay
+# compiz-reloaded-overlay [Abandoned]
 
 Repoman Status: [![Build Status](https://travis-ci.org/kajzersoze/compiz-reloaded-overlay.svg?branch=master)](https://travis-ci.org/kajzersoze/compiz-reloaded-overlay)
 
