@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -6,7 +6,7 @@ EAPI=5
 
 inherit eutils flag-o-matic cmake-utils cmake-multilib
 
-DESCRIPTION="Colour management system allowing to share various settings across applications and services"
+DESCRIPTION="Colour management system for sharing settings across applications and services"
 HOMEPAGE="http://www.oyranos.org/"
 SRC_URI="https://github.com/oyranos-cms/oyranos/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
