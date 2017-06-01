@@ -2,15 +2,15 @@
 <!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
 <repositories xmlns="" version="1.0">
 <repo quality="experimental" status="unofficial">
-   <name>wreathe-overlay</name>
+   <name>compiz-reloaded</name>
    <description>ebuilds for Wreathe</description>
-   <homepage>https://github.com/ethus3h/wreathe-overlay</homepage>
+   <homepage>https://github.com/ethus3h/compiz-reloaded-overlay</homepage>
    <owner>
        <email>info@futuramerlin.com</email>
        <name>Futuramerlin</name>
    </owner>
-   <source type="git">git://github.com/ethus3h/wreathe-overlay.git</source>
-   <source type="git">https://github.com/ethus3h/wreathe-overlay.git</source>
-   <feed>https://github.com/ethus3h/wreathe-overlay/commits/master.atom</feed>
+   <source type="git">git://github.com/ethus3h/compiz-reloaded-overlay.git</source>
+   <source type="git">https://github.com/ethus3h/compiz-reloaded-overlay.git</source>
+   <feed>https://github.com/ethus3h/compiz-reloaded-overlay/commits/master.atom</feed>
 </repo>
 </repositories>
