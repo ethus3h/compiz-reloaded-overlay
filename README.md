@@ -15,7 +15,7 @@ Ebuilds for compiz-reloaded support in Gentoo
 Packages
 --------
 
-* Version ebuilds :  
+### Version ebuilds
 x11-misc/ccsm ~amd64  
 x11-wm/compiz ~amd64  
 x11-libs/compiz-bcop ~amd64  
@@ -34,7 +34,7 @@ x11-misc/simple-ccsm ~amd64
 x11-wm/compiz-meta ~amd64  
 x11-apps/compiz-boxmenu ~amd64  
 
-* Live ebuilds :  
+### Live ebuilds
 =x11-misc/ccsm-9999 **  
 =x11-wm/compiz-9999 **  
 =x11-libs/compiz-bcop-9999 **  
