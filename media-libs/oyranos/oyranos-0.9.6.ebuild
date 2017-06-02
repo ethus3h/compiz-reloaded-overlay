@@ -7,7 +7,7 @@ inherit eutils flag-o-matic cmake-utils cmake-multilib
 
 DESCRIPTION="Colour management system for sharing settings across applications and services"
 HOMEPAGE="http://www.oyranos.org/"
-SRC_URI="https://github.com/oyranos-cms/oyranos/archive/${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/oyranos-cms/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 KEYWORDS="~amd64 ~x86"
 LICENSE="BSD"
