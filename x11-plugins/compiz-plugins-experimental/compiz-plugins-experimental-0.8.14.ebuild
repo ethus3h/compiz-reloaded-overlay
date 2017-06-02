@@ -31,10 +31,6 @@ DEPEND="${RDEPEND}
 	x11-libs/cairo
 "
 
-# Don't use deprecated glib-gettext
-# see : https://bugzilla.gnome.org/show_bug.cgi?id=624186
-PATCHES=( "${FILESDIR}"/${PN}-0.8.12-fix-glib-gettext-m4.patch )
-
 src_prepare(){
 	default
 	eautoreconf

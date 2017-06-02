@@ -8,47 +8,33 @@ Please report any issues you find with this repository to the Ember project's is
 
 ## Info
 
-Repoman Status: [![Build Status](https://travis-ci.org/ethus3h/compiz-reloaded-overlay.svg?branch=master)](https://travis-ci.org/ethus3h/compiz-reloaded-overlay)
+Repoman status: [![Build Status](https://travis-ci.org/ethus3h/compiz-reloaded-overlay.svg?branch=master)](https://travis-ci.org/ethus3h/compiz-reloaded-overlay)
 
-Ebuilds for compiz-reloaded support in Gentoo
+This overlay provides Compiz for Gentoo.
 
-Packages
---------
+### Version and live ebuilds
+dev-python/compizconfig-python
+x11-apps/compiz-boxmenu
+x11-apps/compiz-manager
+x11-apps/fusion-icon
+x11-libs/compiz-bcop
+x11-libs/libcompizconfig
+x11-misc/ccsm
+x11-misc/simple-ccsm
+x11-plugins/compicc
+x11-plugins/compiz-extra-snowflake-textures
+x11-plugins/compiz-plugins-community
+x11-plugins/compiz-plugins-experimental
+x11-plugins/compiz-plugins-extra
+x11-plugins/compiz-plugins-main
+x11-plugins/compiz-plugins-meta
+x11-themes/emerald-themes
+x11-wm/compiz
+x11-wm/compiz-meta
+x11-wm/emerald
 
-### Version ebuilds
-x11-misc/ccsm ~amd64  
-x11-wm/compiz ~amd64  
-x11-libs/compiz-bcop ~amd64  
-dev-python/compizconfig-python ~amd64  
-x11-apps/compiz-manager ~amd64  
-x11-plugins/compicc ~amd64  
-x11-plugins/compiz-plugins-experimental ~amd64  
-x11-plugins/compiz-plugins-extra ~amd64  
-x11-plugins/compiz-plugins-main ~amd64  
-x11-plugins/compiz-plugins-meta ~amd64  
-x11-wm/emerald ~amd64  
-x11-themes/emerald-themes ~amd64  
-x11-apps/fusion-icon ~amd64  
-x11-libs/libcompizconfig ~amd64  
-x11-misc/simple-ccsm ~amd64  
-x11-wm/compiz-meta ~amd64  
-x11-apps/compiz-boxmenu ~amd64  
+### Version-only ebuilds
+media-libs/oyranos
 
-### Live ebuilds
-=x11-misc/ccsm-9999 **  
-=x11-wm/compiz-9999 **  
-=x11-libs/compiz-bcop-9999 **  
-=dev-python/compizconfig-python-9999 **  
-=x11-apps/compiz-manager-9999 **  
-=x11-plugins/compicc-9999 **  
-=x11-plugins/compiz-plugins-experimental-9999 **  
-=x11-plugins/compiz-plugins-extra-9999 **  
-=x11-plugins/compiz-plugins-main-9999 **  
-=x11-plugins/compiz-plugins-meta-9999 **  
-=x11-wm/emerald-9999 **  
-=x11-themes/emerald-themes-9999 **  
-=x11-apps/fusion-icon-9999 **  
-=x11-libs/libcompizconfig-9999 **  
-=x11-misc/simple-ccsm-9999 **  
-=x11-wm/compiz-meta-9999 **  
-=x11-apps/compiz-boxmenu-9999 **  
+### Live-only ebuilds
+x11-misc/compiz-debug-utils
