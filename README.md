@@ -10,7 +10,7 @@ Please report any issues you find with this repository to the Ember project's is
 
 Repoman status: [![Build Status](https://travis-ci.org/ethus3h/compiz-reloaded-overlay.svg?branch=master)](https://travis-ci.org/ethus3h/compiz-reloaded-overlay)
 
-This overlay provides Compiz for Gentoo.
+This overlay provides ebuilds for Compiz-Reloaded.
 
 ### Version and live ebuilds
 - dev-python/compizconfig-python
