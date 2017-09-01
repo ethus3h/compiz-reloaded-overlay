@@ -1,7 +1,7 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI=6
 
 DESCRIPTION="A wrapper script to start Compiz 0.8.x with proper options"
 HOMEPAGE="https://github.com/compiz-reloaded"
