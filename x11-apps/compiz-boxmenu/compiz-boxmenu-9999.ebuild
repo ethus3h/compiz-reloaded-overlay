@@ -8,7 +8,7 @@ inherit git-r3 gnome2-utils
 
 DESCRIPTION="Desktop menu for Compiz"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/compiz-boxmenu.git"
+EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-boxmenu.git"
 
 LICENSE="GPL-2+"
 SLOT="0"

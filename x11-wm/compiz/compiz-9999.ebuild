@@ -7,7 +7,7 @@ inherit autotools eutils git-r3 gnome2-utils
 
 DESCRIPTION="OpenGL window and compositing manager"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/compiz.git"
+EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz.git"
 
 LICENSE="GPL-2+ LGPL-2.1 MIT"
 SLOT="0"

@@ -9,7 +9,7 @@
        <email>info@futuramerlin.com</email>
        <name>Futuramerlin</name>
    </owner>
-   <source type="git">git://github.com/ethus3h/compiz-reloaded-overlay.git</source>
+   <source type="git">https://github.com/ethus3h/compiz-reloaded-overlay.git</source>
    <source type="git">https://github.com/ethus3h/compiz-reloaded-overlay.git</source>
    <feed>https://github.com/ethus3h/compiz-reloaded-overlay/commits/master.atom</feed>
 </repo>

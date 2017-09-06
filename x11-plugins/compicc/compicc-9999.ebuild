@@ -7,7 +7,7 @@ inherit eutils git-r3
 
 DESCRIPTION="The Compiz ICC colour server"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/compicc.git"
+EGIT_REPO_URI="https://github.com/compiz-reloaded/compicc.git"
 
 LICENSE="GPL-2+"
 SLOT="0"

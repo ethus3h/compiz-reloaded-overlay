@@ -8,7 +8,7 @@ inherit autotools eutils git-r3 python-r1
 
 DESCRIPTION="Python bindings for libraries/plugins for compizconfig-settings"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/compizconfig-python.git"
+EGIT_REPO_URI="https://github.com/compiz-reloaded/compizconfig-python.git"
 
 LICENSE="GPL-2+"
 SLOT="0"

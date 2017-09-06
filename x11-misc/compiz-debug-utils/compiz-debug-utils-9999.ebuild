@@ -7,7 +7,7 @@ inherit git-r3
 
 DESCRIPTION=" Helper utilities for debugging Compiz"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/compiz-debug-utils.git"
+EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-debug-utils.git"
 
 LICENSE="GPL-2+"
 SLOT="0"

@@ -9,7 +9,7 @@ inherit distutils-r1 git-r3 gnome2-utils
 
 DESCRIPTION="Compiz settings manager focused on simplicity for an end-user"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/simple-ccsm.git"
+EGIT_REPO_URI="https://github.com/compiz-reloaded/simple-ccsm.git"
 
 LICENSE="GPL-2+"
 SLOT="0"

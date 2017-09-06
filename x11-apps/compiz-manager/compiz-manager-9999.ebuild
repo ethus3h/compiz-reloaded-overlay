@@ -7,7 +7,7 @@ inherit git-r3
 
 DESCRIPTION="A wrapper script to start Compiz 0.8.x with proper options"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/compiz-manager.git"
+EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-manager.git"
 
 LICENSE="GPL-2+"
 SLOT="0"

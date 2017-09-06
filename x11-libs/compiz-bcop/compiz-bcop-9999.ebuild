@@ -7,7 +7,7 @@ inherit autotools git-r3
 
 DESCRIPTION="Compiz Option code Generator"
 HOMEPAGE="https://github.com/compiz-reloaded"
-EGIT_REPO_URI="git://github.com/compiz-reloaded/compiz-bcop.git"
+EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-bcop.git"
 
 LICENSE="GPL-2+"
 SLOT="0"
