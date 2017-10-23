@@ -3,6 +3,8 @@
 
 EAPI=6
 
+myCommit="f700dd2b6af1f0c93b6b1eb1d75e658783f848e2"
+
 DESCRIPTION=" Helper utilities for debugging Compiz"
 HOMEPAGE="https://github.com/compiz-reloaded"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/${myCommit}.zip -> ${P}-${myCommit}.zip"
@@ -10,10 +12,8 @@ SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/${myCommit}.zip -> ${P
 LICENSE="GPL-2+"
 SLOT="0"
 
-RDEPEND="
-		>=dev-lang/python-3:*
-		x11-wm/compiz[dbus]
-"
+RDEPEND=">=dev-lang/python-3:*
+	x11-wm/compiz[dbus]"
 
 DEPEND="${RDEPEND}"
 
