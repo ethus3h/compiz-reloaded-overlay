@@ -10,10 +10,11 @@ SRC_URI=""
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="compicc experimental extra"
+IUSE="community compicc experimental extra"
 
 RDEPEND="
 	>=x11-plugins/compiz-plugins-main-${PV}
+	community? ( >=x11-plugins/compiz-plugins-community-${PV} )
 	compicc? ( >=x11-plugins/compicc-0.8.10 )
 	experimental? ( >=x11-plugins/compiz-plugins-experimental-${PV} )
 	extra? ( >=x11-plugins/compiz-plugins-extra-${PV} )

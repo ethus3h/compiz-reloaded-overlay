@@ -11,6 +11,7 @@ SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/${myCommit}.zip -> ${P
 
 LICENSE="GPL-2+"
 SLOT="0"
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND=">=dev-lang/python-3:*
 	x11-wm/compiz[dbus]"
