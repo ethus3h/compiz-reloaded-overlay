@@ -41,7 +41,7 @@ COMMONDEPEND="
 		sys-apps/dbus
 		dev-libs/dbus-glib
 	)
-	fuse? ( sys-fs/fuse )
+	fuse? ( sys-fs/fuse:= )
 	gsettings? ( >=dev-libs/glib-2.32 )
 	gtk? (
 		gtk3? (
