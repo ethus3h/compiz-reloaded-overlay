@@ -20,6 +20,7 @@ This overlay provides ebuilds for Compiz-Reloaded.
 - x11-libs/compiz-bcop
 - x11-libs/libcompizconfig
 - x11-misc/ccsm
+- x11-misc/compiz-debug-utils
 - x11-misc/simple-ccsm
 - x11-plugins/compicc
 - x11-plugins/compiz-extra-snowflake-textures
@@ -35,6 +36,3 @@ This overlay provides ebuilds for Compiz-Reloaded.
 
 ### Version-only ebuilds
 - media-libs/oyranos
-
-### Live-only ebuilds
-- x11-misc/compiz-debug-utils
