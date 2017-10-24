@@ -1,60 +1,34 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI="6"
 PYTHON_COMPAT=( python2_7 )
 
-inherit distutils-r1 eutils gnome2-utils
+inherit distutils-r1 gnome2-utils
 
-DESCRIPTION="Fusion Icon (Compiz tray icon) for Compiz 0.8.x series"
-HOMEPAGE="https://github.com/compiz-reloaded"
+DESCRIPTION="Compiz Fusion Tray Icon and Manager"
+HOMEPAGE="http://compiz.org"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="gtk2 gtk3 qt4 qt5"
-REQUIRED_USE="?? ( gtk2 gtk3 ) ?? ( qt4 qt5 )  || ( gtk2 gtk3 qt4 qt5 )"
+IUSE="+gtk qt5"
+
+REQUIRED_USE="|| ( gtk qt5 )"
 
 RDEPEND="
-	>=dev-python/compizconfig-python-0.8.12[${PYTHON_USEDEP}]
-	<dev-python/compizconfig-python-0.9
-	dev-python/pygobject:3[${PYTHON_USEDEP}]
+	dev-python/compizconfig-python[${PYTHON_USEDEP}]
 	x11-apps/xvinfo
-	x11-apps/mesa-progs
-	>=x11-wm/compiz-0.8
-	<x11-wm/compiz-0.9
-	gtk2? (
-		dev-libs/libappindicator:2
-		x11-wm/compiz[-gtk3]
-	)
-	gtk3? (
-		dev-libs/libappindicator:3
-		x11-wm/compiz[gtk3]
-	)
-	!gtk3? ( x11-wm/compiz[gtk(+),-gtk3] )
-	qt4? ( dev-python/PyQt4[${PYTHON_USEDEP}] )
-	qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
-"
-
+	x11-wm/compiz
+	gtk? ( dev-python/pygobject:3[${PYTHON_USEDEP}] )
+	qt5? ( dev-python/PyQt5[gui,widgets,${PYTHON_USEDEP}] )"
 DEPEND="${RDEPEND}"
 
-python_prepare_all(){
-	distutils-r1_python_prepare_all
-}
-
 python_configure_all() {
-	mydistutilsargs=(
-	build \
-		--with-gtk=$(usex gtk3 3.0 2.0)
-	)
-}
-
-python_install_all() {
-	mydistutilsargs=( install \
-		--prefix=/usr/local
-	)
-	distutils-r1_python_install_all
+	esetup.py build \
+		$(use gtk && echo --with-gtk=3) \
+		$(use qt5 && echo --with-qt=5)
 }
 
 pkg_postinst() {
