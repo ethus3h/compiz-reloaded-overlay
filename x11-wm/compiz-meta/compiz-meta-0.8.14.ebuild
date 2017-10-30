@@ -10,7 +10,7 @@ SRC_URI=""
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="boxmenu +ccsm +emerald +fusionicon manager simpleccsm"
+IUSE="boxmenu +ccsm debug-utils +emerald +fusionicon manager simpleccsm"
 
 RDEPEND="
 	>=x11-plugins/compiz-plugins-meta-${PV}
