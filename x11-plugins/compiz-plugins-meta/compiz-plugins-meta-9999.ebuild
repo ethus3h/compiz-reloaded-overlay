@@ -18,5 +18,5 @@ RDEPEND="
 	compicc? ( >=x11-plugins/compicc-${PV} )
 	experimental? ( >=x11-plugins/compiz-plugins-experimental-${PV} )
 	extra? ( >=x11-plugins/compiz-plugins-extra-${PV} )
-	extra-snowflake-textures? ( >=x11-plugins/compiz-plugins-extra-snowflake-textures-${PV} )
+	extra-snowflake-textures? ( >=x11-plugins/compiz-extra-snowflake-textures-${PV} )
 "
