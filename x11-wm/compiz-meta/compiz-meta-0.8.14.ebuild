@@ -16,6 +16,7 @@ RDEPEND="
 	>=x11-plugins/compiz-plugins-meta-${PV}
 	boxmenu? ( >=x11-apps/compiz-boxmenu-1.1.12 )
 	ccsm? ( >=x11-misc/ccsm-${PV} )
+	debug-utils? ( >=x11-misc/compiz-debug-utils-0_pre20171023 )
 	emerald? ( >=x11-wm/emerald-${PV} )
 	fusionicon? ( >=x11-apps/fusion-icon-0.2.2 )
 	manager? ( >=x11-apps/compiz-manager-0.7.0 )

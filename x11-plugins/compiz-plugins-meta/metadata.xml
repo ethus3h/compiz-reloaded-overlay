@@ -6,6 +6,7 @@
 		<flag name="compicc">Install CompICC plugin</flag>
 		<flag name="experimental">Install experimental plugins</flag>
 		<flag name="extra">Install extra plugins</flag>
+		<flag name="extra-snowflake-textures">Install extra snowflake textures</flag>
 	</use>
 	<maintainer type="person">
 		<email>elliot@futuramerlin.com</email>
