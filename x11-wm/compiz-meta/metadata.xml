@@ -6,6 +6,7 @@
 		<flag name="ccsm">Enable ccsm support</flag>
 		<flag name="debug-utils">Install extra tools for debugging Compiz</flag>
 		<flag name="emerald">Enable emerald window decorator</flag>
+		<flag name="full">Install all Compiz packages</flag>
 		<flag name="fusionicon">Enable fusion icon support</flag>
 		<flag name="manager">Enable compiz manager</flag>
 		<flag name="simpleccsm">Enable simple ccsm</flag>
