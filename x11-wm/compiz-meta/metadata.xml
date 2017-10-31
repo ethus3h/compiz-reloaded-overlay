@@ -4,7 +4,7 @@
 	<use>
 		<flag name="boxmenu">Enable compiz boxmenu</flag>
 		<flag name="ccsm">Enable ccsm support</flag>
-		<flag name="debug-utils">Install extra tools for debugging Compiz</flag>
+		<flag name="debugutils">Install extra tools for debugging Compiz</flag>
 		<flag name="emerald">Enable emerald window decorator</flag>
 		<flag name="full">Install all Compiz packages</flag>
 		<flag name="fusionicon">Enable fusion icon support</flag>
