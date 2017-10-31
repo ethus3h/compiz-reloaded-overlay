@@ -18,7 +18,10 @@ RDEPEND="
 	ccsm? ( >=x11-misc/ccsm-${PV} )
 	debugutils? ( >=x11-misc/compiz-debug-utils-${PV} )
 	emerald? ( >=x11-wm/emerald-${PV} )
-	full? ( x11-plugins/compiz-plugins-meta[community,compicc,experimental,extra,extra-snowflake-textures] )
+	full? (
+		x11-plugins/compiz-plugins-meta[community,compicc,experimental,extra,extra-snowflake-textures]
+		x11-wm/compiz[compizconfig]
+	)
 	fusionicon? ( >=x11-apps/fusion-icon-${PV} )
 	manager? ( >=x11-apps/compiz-manager-${PV} )
 	simpleccsm? ( >=x11-misc/simple-ccsm-${PV} )
