@@ -23,4 +23,4 @@ RDEPEND="
 	manager? ( >=x11-apps/compiz-manager-${PV} )
 	simpleccsm? ( >=x11-misc/simple-ccsm-${PV} )
 "
-REQUIRED_USE="full? ( boxmenu ccsm debug-utils emerald fusionicon manager simpleccsm )"
+REQUIRED_USE="full? ( boxmenu ccsm debugutils emerald fusionicon manager simpleccsm )"
