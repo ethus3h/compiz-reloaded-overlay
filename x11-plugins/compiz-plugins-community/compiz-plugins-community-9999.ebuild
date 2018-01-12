@@ -8,6 +8,7 @@ if [[ "${PV}" == "9999" ]]; then
 	EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 	KEYWORDS=""
 	RDEPEND="
+		app-misc/cwiid
 		gnome-base/librsvg
 		virtual/jpeg:0
 		>=x11-libs/compiz-bcop-${PV}
