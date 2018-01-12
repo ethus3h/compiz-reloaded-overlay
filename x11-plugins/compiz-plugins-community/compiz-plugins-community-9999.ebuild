@@ -33,7 +33,7 @@ fi
 DESCRIPTION="Compiz Fusion Window Decorator Community Plugins"
 HOMEPAGE="http://futuramerlin.com/"
 
-LICENSE="GPL-2+ BSD-3"
+LICENSE="GPL-2+ BSD"
 SLOT="0"
 
 DEPEND="${RDEPEND}
