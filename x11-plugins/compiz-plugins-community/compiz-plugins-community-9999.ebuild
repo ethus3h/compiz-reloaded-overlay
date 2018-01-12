@@ -9,6 +9,7 @@ if [[ "${PV}" == "9999" ]]; then
 	KEYWORDS=""
 	RDEPEND="
 		app-misc/cwiid
+		media-libs/opencv
 		gnome-base/librsvg
 		virtual/jpeg:0
 		>=x11-libs/compiz-bcop-${PV}
