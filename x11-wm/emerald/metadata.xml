@@ -7,7 +7,7 @@
 	<maintainer type="person">
 		<email>elliot@futuramerlin.com</email>
 		<name>Elliot Chandler</name>
-		<description>Proxy maintainer</description>
+		<description>Proxied maintainer</description>
 	</maintainer>
 	<maintainer type="project">
 		<email>proxy-maint@gentoo.org</email>
@@ -15,7 +15,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="github">compiz-reloaded/emerald</remote-id>
+		<bugs-to>https://github.com/compiz-reloaded/emerald/issues</bugs-to>
 	</upstream>
-	<bugs-to>https://github.com/compiz-reloaded/emerald/issues</bugs-to>
 	<longdescription lang="en">Emerald is a 3D window decorator for compositing window managers such as compiz.</longdescription>
 </pkgmetadata>
