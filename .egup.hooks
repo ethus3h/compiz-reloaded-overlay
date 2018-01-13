@@ -5,4 +5,4 @@ source ember_bash_setup &> /dev/null
 
 trap 'die "A fatal error was reported on ${BASH_SOURCE[0]} line ${LINENO}."' ERR
 
-repoman manifest || warn "Repoman manifest failed!"
+egup-manifest || warn "egup-manifest failed!"
