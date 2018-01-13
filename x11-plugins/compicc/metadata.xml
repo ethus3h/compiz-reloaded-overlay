@@ -4,6 +4,14 @@
 	<maintainer type="person">
 		<email>elliot@futuramerlin.com</email>
 		<name>Elliot Chandler</name>
+		<description>Proxy maintainer</description>
 	</maintainer>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">compiz-reloaded/compicc</remote-id>
+	</upstream>
 	<longdescription lang="en">The Compiz ICC colour server.</longdescription>
 </pkgmetadata>

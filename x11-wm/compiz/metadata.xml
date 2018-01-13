@@ -4,6 +4,7 @@
 	<use>
 		<flag name="compizconfig">Enable compizconfig support in gtk-window-decorator</flag>
 		<flag name="fuse">Enables support for the filesystem in userspace plugin through <pkg>sys-fs/fuse</pkg>.</flag>
+		<flag name="gconf">Enable the GConf-based configuration backend; it is not required to work with GNOME, and might actually be faster if it's not used.</flag>
 		<flag name="gsettings">Enable gsettings gwd support</flag>
 		<flag name="gtk">Build the gtk window decorator</flag>
 		<flag name="gtk3">Build with GTK+3 instead of GTK+2</flag>
@@ -13,6 +14,14 @@
 	<maintainer type="person">
 		<email>elliot@futuramerlin.com</email>
 		<name>Elliot Chandler</name>
+		<description>Proxy maintainer</description>
 	</maintainer>
-	<longdescription>Compiz is a compositing window manager that uses 3D graphics acceleration via OpenGL.</longdescription>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">compiz-reloaded/compiz</remote-id>
+	</upstream>
+	<longdescription lang="en">Compiz is a compositing window manager that uses 3D graphics acceleration via OpenGL.</longdescription>
 </pkgmetadata>

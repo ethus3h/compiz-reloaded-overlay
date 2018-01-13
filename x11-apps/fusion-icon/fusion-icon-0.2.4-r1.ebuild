@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -26,13 +26,10 @@ RDEPEND="
 	<x11-wm/compiz-0.9
 	gtk2? (
 		dev-libs/libappindicator:2
-		x11-wm/compiz[-gtk3]
 	)
 	gtk3? (
 		dev-libs/libappindicator:3
-		x11-wm/compiz[gtk3]
 	)
-	!gtk3? ( x11-wm/compiz[gtk(+),-gtk3] )
 	qt4? ( dev-python/PyQt4[${PYTHON_USEDEP}] )
 	qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 "

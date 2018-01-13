@@ -4,6 +4,14 @@
 	<maintainer type="person">
 		<email>elliot@futuramerlin.com</email>
 		<name>Elliot Chandler</name>
+		<description>Proxy maintainer</description>
 	</maintainer>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">compiz-reloaded/compiz-boxmenu</remote-id>
+	</upstream>
 	<longdescription lang="en">A desktop menu for Compiz which introduces extensive icon support, pipeitems, recent documents list, and more.</longdescription>
 </pkgmetadata>
