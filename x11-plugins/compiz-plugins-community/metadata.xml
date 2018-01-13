@@ -13,5 +13,6 @@
 	<upstream>
 		<remote-id type="github">ethus3h/compiz-plugins-community</remote-id>
 	</upstream>
+	<bugs-to>https://github.com/ethus3h/compiz-plugins-community/issues</bugs-to>
 	<longdescription lang="en">Community-maintained Compiz compositing manager plugins.</longdescription>
 </pkgmetadata>

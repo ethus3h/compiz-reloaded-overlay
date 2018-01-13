@@ -19,5 +19,6 @@
 	<upstream>
 		<remote-id type="github">compiz-reloaded/fusion-icon</remote-id>
 	</upstream>
+	<bugs-to>https://github.com/compiz-reloaded/fusion-icon/issues</bugs-to>
 	<longdescription lang="en">Compiz Fusion Tray Icon and Manager.</longdescription>
 </pkgmetadata>

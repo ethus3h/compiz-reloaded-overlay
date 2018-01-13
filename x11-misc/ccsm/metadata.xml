@@ -16,5 +16,6 @@
 	<upstream>
 		<remote-id type="github">compiz-reloaded/ccsm</remote-id>
 	</upstream>
+	<bugs-to>https://github.com/compiz-reloaded/ccsm/issues</bugs-to>
 	<longdescription lang="en">Compizconfig Settings Manager.</longdescription>
 </pkgmetadata>

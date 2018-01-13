@@ -16,5 +16,6 @@
 	<upstream>
 		<remote-id type="github">compiz-reloaded/emerald</remote-id>
 	</upstream>
+	<bugs-to>https://github.com/compiz-reloaded/emerald/issues</bugs-to>
 	<longdescription lang="en">Emerald is a 3D window decorator for compositing window managers such as compiz.</longdescription>
 </pkgmetadata>

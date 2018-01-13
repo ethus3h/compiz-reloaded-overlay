@@ -13,5 +13,6 @@
 	<upstream>
 		<remote-id type="github">compiz-reloaded/emerald-themes</remote-id>
 	</upstream>
+	<bugs-to>https://github.com/compiz-reloaded/emerald-themes/issues</bugs-to>
 	<longdescription lang="en">Themes for the Emerald window decorator</longdescription>
 </pkgmetadata>

@@ -13,5 +13,6 @@
 	<upstream>
 		<remote-id type="github">compiz-reloaded/libcompizconfig</remote-id>
 	</upstream>
+	<bugs-to>https://github.com/compiz-reloaded/libcompizconfig/issues</bugs-to>
 	<longdescription lang="en">Libcompizconfig is an alternative configuration system for compiz.</longdescription>
 </pkgmetadata>
