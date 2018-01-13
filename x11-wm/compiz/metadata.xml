@@ -22,7 +22,7 @@
 	</maintainer>
 	<upstream>
 		<remote-id type="github">compiz-reloaded/compiz</remote-id>
+		<bugs-to>https://github.com/compiz-reloaded/compiz/issues</bugs-to>
 	</upstream>
-	<bugs-to>https://github.com/compiz-reloaded/compiz/issues</bugs-to>
 	<longdescription lang="en">Compiz is a compositing window manager that uses 3D graphics acceleration via OpenGL.</longdescription>
 </pkgmetadata>
