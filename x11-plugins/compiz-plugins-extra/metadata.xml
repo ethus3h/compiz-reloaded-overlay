@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-	<use>
-		<flag name="gconf">Install GConf schemas for the plugins, needed when using the GConf-based configuration backend in <pkg>x11-wm/compiz</pkg>.</flag>
-	</use>
 	<maintainer type="person">
 		<email>elliot@futuramerlin.com</email>
 		<name>Elliot Chandler</name>
@@ -13,6 +10,9 @@
 		<email>proxy-maint@gentoo.org</email>
 		<name>Proxy Maintainers</name>
 	</maintainer>
+	<use>
+		<flag name="gconf">Install GConf schemas for the plugins, needed when using the GConf-based configuration backend in <pkg>x11-wm/compiz</pkg>.</flag>
+	</use>
 	<upstream>
 		<remote-id type="github">compiz-reloaded/compiz-plugins-extra</remote-id>
 		<bugs-to>https://github.com/compiz-reloaded/compiz-plugins-extra/issues</bugs-to>

@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit autotools eutils
+inherit autotools
 
 DESCRIPTION="Compiz Fusion Window Decorator Extra Plugins"
 HOMEPAGE="https://github.com/compiz-reloaded"
@@ -46,5 +46,5 @@ src_configure() {
 
 src_install() {
 	default
-	prune_libtool_files
+	find "${D}" -name '*.la' -delete || die
 }
