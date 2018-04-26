@@ -3,6 +3,8 @@
 
 EAPI=6
 
+inherit eutils
+
 DESCRIPTION="Compiz Fusion Window Decorator Plugins"
 HOMEPAGE="https://github.com/compiz-reloaded"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
@@ -36,5 +38,5 @@ src_configure() {
 
 src_install() {
 	default
-	find "${D}" -name '*.la' -delete || die
+	prune_libtool_files
 }

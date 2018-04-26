@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit autotools
+inherit autotools eutils
 
 DESCRIPTION="Emerald Window Decorator"
 HOMEPAGE="https://github.com/compiz-reloaded"
@@ -56,5 +56,5 @@ src_configure() {
 
 src_install() {
 	default
-	find "${D}" -name '*.la' -delete || die
+	prune_libtool_files
 }
