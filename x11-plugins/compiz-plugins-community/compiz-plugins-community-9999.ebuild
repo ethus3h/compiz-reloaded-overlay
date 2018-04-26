@@ -4,7 +4,7 @@
 EAPI=6
 
 if [[ "${PV}" == "9999" ]]; then
-	inherit autotools eutils git-r3
+	inherit autotools git-r3
 	EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 	KEYWORDS=""
 	RDEPEND="
@@ -17,7 +17,7 @@ if [[ "${PV}" == "9999" ]]; then
 		>=x11-wm/compiz-${PV}
 	"
 else
-	inherit autotools eutils
+	inherit autotools
 	SRC_URI="https://github.com/ethus3h/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64 ~x86"
 	RDEPEND="
@@ -58,5 +58,5 @@ src_configure() {
 
 src_install() {
 	default
-	prune_libtool_files
+	find "${D}" -name '*.la' -delete || die
 }
