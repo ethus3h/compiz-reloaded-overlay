@@ -42,13 +42,14 @@ python_prepare_all(){
 
 python_configure_all() {
 	mydistutilsargs=(
-	build \
+		build \
 		--with-gtk=$(usex gtk3 3.0 2.0)
 	)
 }
 
 python_install_all() {
-	mydistutilsargs=( install \
+	mydistutilsargs=(
+		install \
 		--prefix=/usr/local
 	)
 	distutils-r1_python_install_all
