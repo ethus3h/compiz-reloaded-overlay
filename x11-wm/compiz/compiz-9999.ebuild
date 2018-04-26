@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit autotools eutils git-r3 gnome2-utils
+inherit autotools git-r3 gnome2-utils
 
 DESCRIPTION="OpenGL window and compositing manager"
 HOMEPAGE="https://github.com/compiz-reloaded"
@@ -11,7 +11,7 @@ EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz.git"
 
 LICENSE="GPL-2+ LGPL-2.1 MIT"
 SLOT="0"
-IUSE="+cairo compizconfig dbus fuse gsettings +gtk gtk3 inotify +svg marco mate"
+IUSE="+cairo compizconfig dbus fuse gsettings +gtk gtk3 inotify marco mate +svg"
 REQUIRED_USE="compizconfig? ( gtk )
 	gsettings? ( gtk )
 	marco? ( gsettings )" #338071
@@ -74,14 +74,14 @@ src_prepare() {
 }
 
 src_configure() {
-	local myconf=""
-	if use gtk;
-		then myconf=" --with-gtk=$(usex gtk3 3.0 2.0)"
+	local myconf=( )
+	if use gtk; then
+		myconf+=( "--with-gtk=$(usex gtk3 3.0 2.0)" )
 	else
-		myconf=" --disable-gtk"
+		myconf+=( "--disable-gtk" )
 	fi
 
-	econf \
+	myconf+=(
 		--enable-fast-install \
 		--disable-static \
 		$(use_enable cairo annotate) \
@@ -93,17 +93,15 @@ src_configure() {
 		$(use_enable inotify) \
 		$(use_enable svg librsvg) \
 		$(use_enable marco) \
-		$(use_enable mate) \
-		${myconf}
+		$(use_enable mate)
+	)
+
+	econf "${myconf[@]}"
 }
 
 src_install() {
 	default
-	prune_libtool_files --all
-}
-
-pkg_preinst() {
-	use gsettings && gnome2_schemas_savelist
+	find "${D}" -name '*.la' -delete || die
 }
 
 pkg_postinst() {
