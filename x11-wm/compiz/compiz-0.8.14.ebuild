@@ -108,10 +108,6 @@ src_install() {
 	find "${D}" -name '*.la' -delete || die
 }
 
-pkg_preinst() {
-	use gsettings && gnome2_schemas_savelist
-}
-
 pkg_postinst() {
 	use gsettings && gnome2_schemas_update
 }
