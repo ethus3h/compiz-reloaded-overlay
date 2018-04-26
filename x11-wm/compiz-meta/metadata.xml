@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+	<maintainer type="person">
+		<email>elliot@futuramerlin.com</email>
+		<name>Elliot Chandler</name>
+		<description>Proxied maintainer</description>
+	</maintainer>
+	<maintainer type="project">
+		<email>proxy-maint@gentoo.org</email>
+		<name>Proxy Maintainers</name>
+	</maintainer>
 	<use>
 		<flag name="boxmenu">Enable compiz boxmenu</flag>
 		<flag name="ccsm">Enable ccsm support</flag>
@@ -11,14 +20,5 @@
 		<flag name="manager">Enable compiz manager</flag>
 		<flag name="simpleccsm">Enable simple ccsm</flag>
 	</use>
-	<maintainer type="person">
-		<email>elliot@futuramerlin.com</email>
-		<name>Elliot Chandler</name>
-		<description>Proxied maintainer</description>
-	</maintainer>
-	<maintainer type="project">
-		<email>proxy-maint@gentoo.org</email>
-		<name>Proxy Maintainers</name>
-	</maintainer>
 	<longdescription>Compiz metapackage.</longdescription>
 </pkgmetadata>
