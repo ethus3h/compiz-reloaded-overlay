@@ -20,7 +20,7 @@ RDEPEND="dev-libs/libxml2
 DEPEND="${RDEPEND}
 	>=dev-util/intltool-0.41
 	virtual/pkgconfig
-	x11-proto/xproto
+	x11-base/xorg-proto
 "
 
 #RESTRICT="test"
