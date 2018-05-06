@@ -23,8 +23,6 @@ DEPEND="${RDEPEND}
 	x11-base/xorg-proto
 "
 
-#RESTRICT="test"
-
 src_configure() {
 	econf \
 		--enable-fast-install \

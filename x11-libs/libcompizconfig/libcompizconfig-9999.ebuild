@@ -22,8 +22,6 @@ DEPEND="${RDEPEND}
 	x11-proto/xproto
 "
 
-#RESTRICT="test"
-
 src_prepare() {
 	default
 	eautoreconf
