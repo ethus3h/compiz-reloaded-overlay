@@ -62,8 +62,7 @@ COMMONDEPEND="
 
 DEPEND="${COMMONDEPEND}
 	virtual/pkgconfig
-	x11-proto/damageproto
-	x11-proto/xineramaproto
+	x11-base/xorg-proto
 "
 
 RDEPEND="${COMMONDEPEND}"

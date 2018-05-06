@@ -66,8 +66,7 @@ COMMONDEPEND="
 
 DEPEND="${COMMONDEPEND}
 	virtual/pkgconfig
-	x11-proto/damageproto
-	x11-proto/xineramaproto
+	x11-base/xorg-proto
 "
 
 RDEPEND="${COMMONDEPEND}"
@@ -86,17 +85,17 @@ src_configure() {
 	fi
 
 	myconf+=(
-		--enable-fast-install \
-		--disable-static \
-		$(use_enable cairo annotate) \
-		$(use_enable compizconfig) \
-		$(use_enable dbus) \
-		$(use_enable dbus dbus-glib) \
-		$(use_enable fuse) \
-		$(use_enable gsettings) \
-		$(use_enable inotify) \
-		$(use_enable svg librsvg) \
-		$(use_enable marco) \
+		--enable-fast-install
+		--disable-static
+		$(use_enable cairo annotate)
+		$(use_enable compizconfig)
+		$(use_enable dbus)
+		$(use_enable dbus dbus-glib)
+		$(use_enable fuse)
+		$(use_enable gsettings)
+		$(use_enable inotify)
+		$(use_enable svg librsvg)
+		$(use_enable marco)
 		$(use_enable mate)
 	)
 
