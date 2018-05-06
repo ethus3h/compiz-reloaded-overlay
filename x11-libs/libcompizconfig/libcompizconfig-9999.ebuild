@@ -22,7 +22,7 @@ DEPEND="${RDEPEND}
 	x11-base/xorg-proto
 "
 
-RESTRICT="test"
+#RESTRICT="test"
 
 src_prepare() {
 	default
