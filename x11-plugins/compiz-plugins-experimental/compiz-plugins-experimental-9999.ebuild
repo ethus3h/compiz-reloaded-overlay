@@ -5,7 +5,7 @@ EAPI=6
 
 inherit autotools eutils git-r3
 
-DESCRIPTION="Compiz Fusion Window Decorator Experimental Plugins"
+DESCRIPTION="Compiz Window Manager: Experimental Plugins"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-plugins-experimental.git"
 

@@ -32,7 +32,7 @@ else
 	"
 fi
 
-DESCRIPTION="Compiz Fusion Window Decorator Community Plugins"
+DESCRIPTION="Compiz Window Manager: Community Plugins"
 HOMEPAGE="http://futuramerlin.com/"
 
 LICENSE="GPL-2+ BSD"

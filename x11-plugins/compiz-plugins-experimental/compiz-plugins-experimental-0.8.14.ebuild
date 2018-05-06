@@ -5,7 +5,7 @@ EAPI=6
 
 inherit autotools eutils
 
-DESCRIPTION="Compiz Fusion Window Decorator Experimental Plugins"
+DESCRIPTION="Compiz Window Manager: Experimental Plugins"
 HOMEPAGE="https://github.com/compiz-reloaded"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
 
