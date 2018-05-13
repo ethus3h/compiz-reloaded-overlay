@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit eutils git-r3
+inherit git-r3
 
 DESCRIPTION="The Compiz ICC colour server"
 HOMEPAGE="https://github.com/compiz-reloaded"

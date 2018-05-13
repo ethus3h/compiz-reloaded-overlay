@@ -3,8 +3,6 @@
 
 EAPI=6
 
-inherit eutils
-
 DESCRIPTION="The Compiz ICC colour server"
 HOMEPAGE="https://github.com/compiz-reloaded"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/${PV}/${P}.tar.xz"
