@@ -32,8 +32,7 @@ SLOT="0"
 DEPEND="${RDEPEND}"
 
 src_install() {
-	GLOBIGNORE="COPYING:README.md:.git"
-	dobin *
 	dodoc README.md
-	unset GLOBIGNORE
+	rm README.md
+	dobin *
 }
