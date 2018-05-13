@@ -33,9 +33,9 @@ src_prepare(){
 	# Ideally, the configure script of compiz-plugins-community would do this automatically,
 	# but I don't know how to do that yet.
 	enotify "The wiimote and wiitrack plugins are not built."
-	sed -i '/wiimote/d' src/Makefile.am || die
-	sed -i '/wiitrack/d' src/Makefile.am || die
-	sed -i '$ s/ \\//g' src/Makefile.am || die
+	sed -i '/wiimote/d' {src,icons}/Makefile.am || die
+	sed -i '/wiitrack/d' {src,icons}/Makefile.am || die
+	sed -i '$ s/ \\//g' {src,icons}/Makefile.am || die
 
 	default
 	eautoreconf
