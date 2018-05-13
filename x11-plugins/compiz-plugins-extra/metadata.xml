@@ -13,5 +13,5 @@
 		<remote-id type="github">compiz-reloaded/compiz-plugins-extra</remote-id>
 		<bugs-to>https://github.com/compiz-reloaded/compiz-plugins-extra/issues</bugs-to>
 	</upstream>
-	<longdescription lang="en">Package with the base compiz-fusion plugins: animation, colourfilter, expo, ezoom, jpeg, neg, opacify, put, resizeinfo, ring, scaleaddon, shift, snap, text, thumbnail, vpswitch, wall, winrules, workarounds.</longdescription>
+	<longdescription lang="en">Extra plugins for the Compiz compositing window manager.</longdescription>
 </pkgmetadata>
