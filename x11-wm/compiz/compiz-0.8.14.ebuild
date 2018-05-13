@@ -14,8 +14,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="+cairo compizconfig dbus fuse gsettings +gtk gtk3 inotify marco mate +svg"
 REQUIRED_USE="compizconfig? ( gtk )
-	gsettings? ( gtk )
-	marco? ( gsettings )" #338071
+	marco? ( gsettings )
+	gsettings? ( gtk )"
 
 COMMONDEPEND="
 	>=dev-libs/glib-2
