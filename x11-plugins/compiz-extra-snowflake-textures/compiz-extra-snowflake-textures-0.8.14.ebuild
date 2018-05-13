@@ -16,7 +16,6 @@ RDEPEND=">=x11-plugins/compiz-plugins-experimental-0.8
 
 src_install() {
 	insinto /usr/share/compiz/snow/
-	GLOBIGNORE="README.md:.git:.egup.tags"
+	rm README.md
 	doins -r *
-	unset GLOBIGNORE
 }
