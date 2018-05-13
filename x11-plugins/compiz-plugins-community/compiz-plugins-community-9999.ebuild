@@ -32,7 +32,9 @@ DEPEND="${RDEPEND}
 src_prepare(){
 	default
 	eautoreconf
-}
+	#
+	sed -i '/pattern to match/d' ./infile
+}https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string
 
 src_configure() {
 	econf \
