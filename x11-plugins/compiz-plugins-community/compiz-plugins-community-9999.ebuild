@@ -31,11 +31,12 @@ DEPEND="${RDEPEND}
 src_prepare(){
 	default
 	eautoreconf
-	# app-misc/cwiid is not available in Portage, so disable the plugins that depend on it
+	# app-misc/cwiid is not available in Portage, so disable the plugins that depend on it.
 	# Ideally, the configure script of compiz-plugins-community would do this automatically,
 	# but I don't know how to do that yet.
-	sed -i '/wiimote/d' ./plugins/Makefile
-	sed -i '/wiitrack/d' ./plugins/Makefile
+	enotify "The wiimote and wiitrack plugins are not built."
+	sed -i '/wiimote/d' ./plugins/Makefile || die
+	sed -i '/wiitrack/d' ./plugins/Makefile || die
 }
 
 src_configure() {
