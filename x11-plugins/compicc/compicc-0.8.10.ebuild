@@ -20,7 +20,7 @@ RDEPEND="
 	x11-libs/libXxf86vm
 	x11-libs/libXfixes
 	x11-libs/libXrandr
-	x11-proto/xextproto
+	x11-base/xorg-proto
 "
 
 DEPEND="${RDEPEND}
