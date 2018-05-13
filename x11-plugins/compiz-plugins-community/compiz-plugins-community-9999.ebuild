@@ -35,6 +35,7 @@ src_prepare(){
 	enotify "The wiimote and wiitrack plugins are not built."
 	sed -i '/wiimote/d' src/Makefile.am || die
 	sed -i '/wiitrack/d' src/Makefile.am || die
+	sed -i '$ s/ \\//g' src/Makefile.am || die
 
 	default
 	eautoreconf
