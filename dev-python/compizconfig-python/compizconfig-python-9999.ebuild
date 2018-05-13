@@ -44,5 +44,5 @@ src_compile() {
 
 src_install() {
 	python_foreach_impl default
-	prune_libtool_files --modules
+	find "${D}" -name '*.la' -delete || die
 }
