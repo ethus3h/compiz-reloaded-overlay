@@ -40,6 +40,7 @@ src_prepare(){
 	sed -i '/wiimote/d' src/Makefile.am || die
 	sed -i '/wiitrack/d' src/Makefile.am || die
 	rm -r src/wii{mote,track} || die
+	find . -exec grep -l wiimote {} \;
 }
 
 src_configure() {
