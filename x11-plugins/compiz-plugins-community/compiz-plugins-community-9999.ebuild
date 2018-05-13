@@ -13,7 +13,6 @@ LICENSE="GPL-2+ BSD"
 SLOT="0"
 
 RDEPEND="
-	app-misc/cwiid
 	media-libs/opencv
 	gnome-base/librsvg
 	virtual/jpeg:0
@@ -32,9 +31,12 @@ DEPEND="${RDEPEND}
 src_prepare(){
 	default
 	eautoreconf
-	#
-	sed -i '/pattern to match/d' ./infile
-}https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string
+	# app-misc/cwiid is not available in Portage, so disable the plugins that depend on it
+	# Ideally, the configure script of compiz-plugins-community would do this automatically,
+	# but I don't know how to do that yet.
+	sed -i '/wiimote/d' ./plugins/Makefile
+	sed -i '/wiitrack/d' ./plugins/Makefile
+}
 
 src_configure() {
 	econf \
