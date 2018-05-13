@@ -39,6 +39,7 @@ src_prepare(){
 	sed -i '/wiitrack/d' "${S}"/configure.ac || die
 	sed -i '/wiimote/d' "${S}"/src/Makefile.am || die
 	sed -i '/wiitrack/d' "${S}"/src/Makefile.am || die
+	rm -r "${S}"/src/wii{mote,track} || die
 }
 
 src_configure() {
