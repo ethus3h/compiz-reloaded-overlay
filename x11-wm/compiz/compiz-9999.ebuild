@@ -36,7 +36,7 @@ COMMONDEPEND="
 	virtual/glu
 	x11-libs/pango
 	cairo? ( >=x11-libs/cairo-1.4[X] )
-	compizconfig? (	>=x11-libs/libcompizconfig-${PV} )
+	compizconfig? ( >=x11-libs/libcompizconfig-${PV} )
 	dbus? (
 		sys-apps/dbus
 		dev-libs/dbus-glib
