@@ -1,5 +1,0 @@
-compiz-9999: whitespace error
-compiz-9999: introduced without splitting commits for libcompizconfig-9999 introduction
-compiz-plugins-{main,extra} metadata needs longdescription work
-etxra: reorder libtool use conditional dep
-Forgot remove obvious descirption: compiz-plugins-meta
