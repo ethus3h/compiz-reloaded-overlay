@@ -3,24 +3,17 @@
 
 EAPI=6
 
-if [[ "${PV}" == "9999" ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
-	KEYWORDS=""
-	RDEPEND=">=x11-plugins/compiz-plugins-experimental-${PV}"
-else
-	SRC_URI="https://github.com/ethus3h/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64 ~x86"
-	RDEPEND=">=x11-plugins/compiz-plugins-experimental-0.8
-		<x11-plugins/compiz-plugins-experimental-0.9"
-fi
+inherit git-r3
 
 DESCRIPTION="Extra snowflake textures for Compiz"
 HOMEPAGE="https://futuramerlin.com/"
+EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 
 LICENSE="AGPL-3"
 SLOT="0"
-RDEPEND="x11-plugins/compiz-plugins-experimental"
+KEYWORDS=""
+
+RDEPEND=">=x11-plugins/compiz-plugins-experimental-${PV}"
 
 src_install() {
 	insinto /usr/share/compiz/snow/

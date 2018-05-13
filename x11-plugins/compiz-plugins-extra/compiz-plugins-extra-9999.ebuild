@@ -15,11 +15,11 @@ IUSE="libnotify"
 
 RDEPEND="
 	gnome-base/librsvg
-	libnotify? ( x11-libs/libnotify )
 	>=x11-libs/compiz-bcop-${PV}
 	>=x11-plugins/compiz-plugins-main-${PV}
 	>=x11-wm/compiz-${PV}
 	virtual/jpeg:0
+	libnotify? ( x11-libs/libnotify )
 "
 
 DEPEND="${RDEPEND}
