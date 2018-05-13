@@ -8,4 +8,4 @@ trap 'die "A fatal error was reported on ${BASH_SOURCE[0]} line ${LINENO}."' ERR
 egup-manifest || warn "egup-manifest failed!"
 git add -A .
 git commit -m "egup-manifest update" || true
-egencache --update --repo=. --jobs=4
+egencache --update --repo="compiz-reloaded" --jobs=4 .
