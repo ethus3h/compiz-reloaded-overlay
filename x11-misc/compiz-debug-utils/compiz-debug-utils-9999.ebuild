@@ -21,6 +21,6 @@ DEPEND="${RDEPEND}"
 
 src_install() {
 	dodoc README.md
-	rm README.md
-	dobin *
+	rm README.md COPYING
+	dobin .
 }

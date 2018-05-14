@@ -16,7 +16,7 @@ KEYWORDS=""
 RDEPEND=">=x11-plugins/compiz-plugins-experimental-${PV}"
 
 src_install() {
+	rm .egup.{branches,refs,remotes,tags} {CODE_OF_CONDUCT,CONTRIBUTING,LICENSE,README}.md || die
 	insinto /usr/share/compiz/snow/
-	rm README.md
-	doins -r *
+	doins -r .
 }
