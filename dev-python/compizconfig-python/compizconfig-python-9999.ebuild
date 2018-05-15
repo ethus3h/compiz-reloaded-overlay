@@ -4,7 +4,7 @@
 EAPI=6
 
 PYTHON_COMPAT=( python2_7 )
-inherit autotools eutils git-r3 python-r1
+inherit autotools git-r3 python-r1
 
 DESCRIPTION="Python bindings for libraries/plugins for compizconfig-settings"
 HOMEPAGE="https://github.com/compiz-reloaded"
@@ -31,10 +31,6 @@ src_prepare(){
 }
 
 src_configure() {
-	local myeconfargs=(
-		--enable-fast-install
-		--disable-static
-	)
 	python_foreach_impl default
 }
 

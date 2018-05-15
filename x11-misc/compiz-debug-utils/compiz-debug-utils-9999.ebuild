@@ -3,17 +3,21 @@
 
 EAPI=6
 
-inherit git-r3
+PYTHON_COMPAT=( python3_{4,5,6} )
 
-DESCRIPTION=" Helper utilities for debugging Compiz"
+inherit git-r3 python-single-r1
+
+DESCRIPTION="Helper utilities for debugging Compiz"
 HOMEPAGE="https://github.com/compiz-reloaded"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-debug-utils.git"
 
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS=""
+IUSE="test"
+REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-RDEPEND="
+RDEPEND="${PYTHON_DEPS}
 		>=dev-lang/python-3:*
 		=x11-wm/compiz-${PV}[dbus]
 "
@@ -21,6 +25,6 @@ DEPEND="${RDEPEND}"
 
 src_install() {
 	dodoc README.md
-	rm README.md COPYING
+	rm README.md COPYING || die
 	dobin .
 }
