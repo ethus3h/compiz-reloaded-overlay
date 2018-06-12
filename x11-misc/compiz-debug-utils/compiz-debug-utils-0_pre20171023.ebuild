@@ -30,5 +30,5 @@ S="${WORKDIR}/${PN}-${MY_COMMIT}"
 src_install() {
 	dodoc README.md
 	rm README.md COPYING || die
-	dobin .
+	dobin *
 }
