@@ -4,7 +4,7 @@
 EAPI=6
 
 PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
-inherit python-r1
+inherit python-single-r1
 
 DESCRIPTION="Python bindings for libraries/plugins for compizconfig-settings"
 HOMEPAGE="https://github.com/compiz-reloaded"
@@ -27,15 +27,6 @@ DEPEND="${RDEPEND}
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
-src_configure() {
-	python_foreach_impl default
-}
-
-src_compile() {
-	python_foreach_impl default
-}
-
 src_install() {
-	python_foreach_impl default
 	find "${D}" -name '*.la' -delete || die
 }
