@@ -4,6 +4,7 @@
 EAPI=6
 PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
 
+DISTUTILS_SINGLE_IMPL=1
 inherit distutils-r1 eutils gnome2-utils
 
 DESCRIPTION="Fusion Icon (Compiz tray icon) for Compiz 0.8.x series"
