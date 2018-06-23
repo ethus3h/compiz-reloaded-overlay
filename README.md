@@ -33,6 +33,3 @@ This overlay provides ebuilds for Compiz-Reloaded.
 - x11-wm/compiz
 - x11-wm/compiz-meta
 - x11-wm/emerald
-
-### Version-only ebuilds
-- media-libs/oyranos
