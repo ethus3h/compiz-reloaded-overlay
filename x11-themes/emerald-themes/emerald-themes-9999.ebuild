@@ -6,7 +6,7 @@ EAPI=6
 inherit autotools git-r3
 
 DESCRIPTION="Emerald window decorator themes"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/emerald-themes.git"
 
 LICENSE="GPL-2+"

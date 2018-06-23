@@ -9,7 +9,7 @@ DISTUTILS_SINGLE_IMPL=1
 inherit distutils-r1 gnome2-utils
 
 DESCRIPTION="Compiz settings manager focused on simplicity for an end-user"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"

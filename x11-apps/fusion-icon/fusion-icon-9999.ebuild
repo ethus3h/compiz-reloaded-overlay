@@ -8,7 +8,7 @@ DISTUTILS_SINGLE_IMPL=1
 inherit distutils-r1 eutils git-r3 gnome2-utils
 
 DESCRIPTION="Fusion Icon (Compiz tray icon) for Compiz 0.8.x series"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/fusion-icon.git"
 
 LICENSE="GPL-2+"

@@ -6,7 +6,7 @@ EAPI=6
 inherit autotools git-r3 gnome2-utils
 
 DESCRIPTION="OpenGL window and compositing manager"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz.git"
 
 LICENSE="GPL-2+ LGPL-2.1 MIT"

@@ -6,7 +6,7 @@ EAPI=6
 inherit autotools eutils git-r3 gnome2-utils
 
 DESCRIPTION="Compiz Window Manager: Experimental Plugins"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-plugins-experimental.git"
 
 LICENSE="GPL-2+"

@@ -6,7 +6,7 @@ EAPI=6
 inherit git-r3
 
 DESCRIPTION="The Compiz ICC colour server"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compicc.git"
 
 LICENSE="GPL-2+"

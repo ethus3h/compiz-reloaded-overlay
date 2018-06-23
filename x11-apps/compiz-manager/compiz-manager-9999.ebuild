@@ -6,7 +6,7 @@ EAPI=6
 inherit git-r3
 
 DESCRIPTION="A wrapper script to start Compiz 0.8.x with proper options"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-manager.git"
 
 LICENSE="GPL-2+"

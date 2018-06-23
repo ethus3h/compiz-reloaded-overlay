@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{4,5,6} )
 inherit python-single-r1
 
 DESCRIPTION="Helper utilities for debugging Compiz"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/${MY_COMMIT}.zip -> ${P}-${MY_COMMIT}.zip"
 
 LICENSE="GPL-2+"

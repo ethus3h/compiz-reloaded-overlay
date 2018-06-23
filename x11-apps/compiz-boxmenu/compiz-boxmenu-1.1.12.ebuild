@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit python-single-r1 gnome2-utils
 
 DESCRIPTION="Desktop menu for Compiz"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"

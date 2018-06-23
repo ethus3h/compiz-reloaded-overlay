@@ -6,7 +6,7 @@ EAPI=6
 inherit autotools git-r3
 
 DESCRIPTION="Compiz Option code Generator"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-bcop.git"
 
 LICENSE="GPL-2+"

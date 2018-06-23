@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
 inherit autotools python-single-r1 git-r3
 
 DESCRIPTION="Python bindings for libraries/plugins for compizconfig-settings"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compizconfig-python.git"
 
 LICENSE="GPL-2+"

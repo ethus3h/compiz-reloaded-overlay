@@ -4,7 +4,7 @@
 EAPI=6
 
 DESCRIPTION="Compiz Reloaded (meta)"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 SRC_URI=""
 
 LICENSE="GPL-2+"

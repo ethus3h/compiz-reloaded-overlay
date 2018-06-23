@@ -4,7 +4,7 @@
 EAPI=6
 
 DESCRIPTION="A wrapper script to start Compiz 0.8.x with proper options"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"

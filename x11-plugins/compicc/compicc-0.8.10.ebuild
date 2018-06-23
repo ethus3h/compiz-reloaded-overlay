@@ -4,7 +4,7 @@
 EAPI=6
 
 DESCRIPTION="The Compiz ICC colour server"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"

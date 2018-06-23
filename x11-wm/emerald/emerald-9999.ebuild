@@ -6,7 +6,7 @@ EAPI=6
 inherit autotools gnome2-utils git-r3
 
 DESCRIPTION="Emerald Window Decorator"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/emerald.git"
 
 LICENSE="GPL-2+"

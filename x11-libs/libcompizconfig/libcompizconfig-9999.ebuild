@@ -5,7 +5,7 @@ EAPI=6
 inherit autotools git-r3
 
 DESCRIPTION="CompizConfig plugin required for compizconfig-settings-manager"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/libcompizconfig.git"
 
 LICENSE="GPL-2+"

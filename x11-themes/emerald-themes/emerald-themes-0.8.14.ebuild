@@ -4,7 +4,7 @@
 EAPI=6
 
 DESCRIPTION="Emerald window decorator themes"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+ GPL-3+"

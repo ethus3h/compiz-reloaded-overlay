@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python2_7 )
 inherit python-single-r1 gnome2-utils git-r3
 
 DESCRIPTION="Desktop menu for Compiz"
-HOMEPAGE="https://github.com/compiz-reloaded"
+HOMEPAGE="https://gitlab.com/compiz"
 EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-boxmenu.git"
 
 LICENSE="GPL-2+"
