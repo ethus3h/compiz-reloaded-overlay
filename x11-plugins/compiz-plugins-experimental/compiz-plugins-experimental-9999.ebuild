@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit autotools eutils git-r3
+inherit autotools eutils git-r3 gnome2-utils
 
 DESCRIPTION="Compiz Window Manager: Experimental Plugins"
 HOMEPAGE="https://github.com/compiz-reloaded"
@@ -41,4 +41,12 @@ src_configure() {
 src_install() {
 	default
 	find "${D}" -name '*.la' -delete || die
+}
+
+pkg_postinst() {
+	gnome2_icon_cache_update
+}
+
+pkg_postrm() {
+	gnome2_icon_cache_update
 }
