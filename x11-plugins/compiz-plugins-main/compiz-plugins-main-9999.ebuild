@@ -18,7 +18,7 @@ RDEPEND="
 	virtual/glu
 	>=x11-libs/compiz-bcop-${PV}
 	>=x11-wm/compiz-${PV}
-	x11-libs/cairo
+	x11-libs/cairo[X]
 "
 
 DEPEND="${RDEPEND}

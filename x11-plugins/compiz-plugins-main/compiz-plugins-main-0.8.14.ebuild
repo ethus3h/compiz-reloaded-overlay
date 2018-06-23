@@ -21,7 +21,7 @@ RDEPEND="
 	<x11-libs/compiz-bcop-0.9
 	>=x11-wm/compiz-0.8
 	<x11-wm/compiz-0.9
-	x11-libs/cairo
+	x11-libs/cairo[X]
 "
 
 DEPEND="${RDEPEND}

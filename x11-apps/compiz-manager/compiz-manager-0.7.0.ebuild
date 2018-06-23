@@ -12,9 +12,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="x11-apps/mesa-progs
-		x11-apps/xdpyinfo
-		>=x11-wm/compiz-0.8.12
-		<x11-wm/compiz-0.9
+	x11-apps/xdpyinfo
+	>=x11-wm/compiz-0.8.12
+	<x11-wm/compiz-0.9
 "
 
 src_install() {

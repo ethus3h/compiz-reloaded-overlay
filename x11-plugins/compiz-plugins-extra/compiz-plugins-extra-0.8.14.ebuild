@@ -15,7 +15,6 @@ KEYWORDS="~amd64 ~x86"
 IUSE="libnotify"
 
 RDEPEND="
-	gnome-base/librsvg
 	>=x11-libs/compiz-bcop-0.7.3
 	<x11-libs/compiz-bcop-0.9
 	>=x11-plugins/compiz-plugins-main-0.8
@@ -24,7 +23,7 @@ RDEPEND="
 	<x11-wm/compiz-0.9
 	virtual/jpeg:0
 	libnotify? ( x11-libs/libnotify )
-	x11-libs/cairo
+	x11-libs/cairo[X]
 "
 
 DEPEND="${RDEPEND}

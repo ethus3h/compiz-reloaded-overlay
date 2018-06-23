@@ -15,14 +15,19 @@ KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
 	gnome-base/librsvg
+	media-libs/glew:=
+	net-misc/curl
 	virtual/jpeg:0
 	>=x11-libs/compiz-bcop-0.7.3
 	<x11-libs/compiz-bcop-0.9
 	>=x11-plugins/compiz-plugins-main-0.8
 	<x11-plugins/compiz-plugins-main-0.9
+	>=x11-plugins/compiz-plugins-extra-0.8
+	<x11-plugins/compiz-plugins-extra-0.9
 	>=x11-wm/compiz-0.8
 	<x11-wm/compiz-0.9
-	x11-libs/cairo
+	x11-libs/cairo[X]
+	x11-libs/libXScrnSaver
 "
 
 DEPEND="${RDEPEND}

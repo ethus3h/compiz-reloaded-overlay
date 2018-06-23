@@ -14,10 +14,10 @@ SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="gtk2 gtk3 qt4 qt5"
-REQUIRED_USE="?? ( gtk2 gtk3 ) ?? ( qt4 qt5 )  || ( gtk2 gtk3 qt4 qt5 )"
+IUSE="gtk2 gtk3 qt5"
+REQUIRED_USE="?? ( gtk2 gtk3 ) ?? ( qt5 )  || ( gtk2 gtk3 qt5 )"
 
-RDEPEND="
+RDEPEND="${PYTHON_DEPS}
 	>=dev-python/compizconfig-python-0.8.12[${PYTHON_USEDEP}]
 	<dev-python/compizconfig-python-0.9
 	dev-python/pygobject:3[${PYTHON_USEDEP}]
@@ -31,27 +31,23 @@ RDEPEND="
 	gtk3? (
 		dev-libs/libappindicator:3
 	)
-	qt4? ( dev-python/PyQt4[${PYTHON_USEDEP}] )
 	qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
 "
 
 DEPEND="${RDEPEND}"
 
-python_prepare_all(){
-	distutils-r1_python_prepare_all
-}
-
 python_configure_all() {
 	mydistutilsargs=(
-		build \
-		--with-gtk=$(usex gtk3 3.0 2.0)
+		build
+		"--with-qt=$(usex qt5 5.0 4.0)"
+		"--with-gtk=$(usex gtk3 3.0 2.0)"
 	)
 }
 
 python_install_all() {
 	mydistutilsargs=(
-		install \
-		--prefix=/usr/local
+		install
+		--prefix=/usr
 	)
 	distutils-r1_python_install_all
 }

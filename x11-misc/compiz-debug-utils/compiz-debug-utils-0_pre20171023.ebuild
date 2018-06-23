@@ -19,7 +19,6 @@ IUSE="test"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
-		>=dev-lang/python-3:*
 		>=x11-wm/compiz-0.8[dbus]
 		<x11-wm/compiz-0.9[dbus]
 "

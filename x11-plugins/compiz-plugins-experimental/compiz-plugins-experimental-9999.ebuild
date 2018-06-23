@@ -14,11 +14,15 @@ SLOT="0"
 
 RDEPEND="
 	gnome-base/librsvg
+	media-libs/glew:=
+	net-misc/curl
 	virtual/jpeg:0
 	>=x11-libs/compiz-bcop-${PV}
 	>=x11-plugins/compiz-plugins-main-${PV}
+	>=x11-plugins/compiz-plugins-extra-${PV}
 	>=x11-wm/compiz-${PV}
-	x11-libs/cairo
+	x11-libs/cairo[X]
+	x11-libs/libXScrnSaver
 "
 
 DEPEND="${RDEPEND}

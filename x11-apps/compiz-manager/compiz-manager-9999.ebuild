@@ -13,8 +13,8 @@ LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="x11-apps/mesa-progs
-		x11-apps/xdpyinfo
-		>=x11-wm/compiz-${PV}
+	x11-apps/xdpyinfo
+	>=x11-wm/compiz-${PV}
 "
 
 src_install() {

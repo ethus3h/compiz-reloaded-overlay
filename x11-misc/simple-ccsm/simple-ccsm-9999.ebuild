@@ -30,9 +30,9 @@ RDEPEND="
 
 python_configure_all() {
 	mydistutilsargs=(
-		build \
-		--prefix=/usr \
-		--with-gtk=$(usex gtk3 3.0 2.0)
+		build
+		"--prefix=/usr"
+		"--with-gtk=$(usex gtk3 3.0 2.0)"
 	)
 }
 
