@@ -6,6 +6,7 @@ EAPI=6
 inherit git-r3
 
 DESCRIPTION="Extra snowflake textures for Compiz"
+HOMEPAGE="https://wiki.gentoo.org/wiki/No_homepage"
 EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 
 LICENSE="AGPL-3"

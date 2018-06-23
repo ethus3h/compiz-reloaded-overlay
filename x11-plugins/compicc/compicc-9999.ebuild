@@ -13,7 +13,6 @@ LICENSE="GPL-2+"
 SLOT="0"
 
 RDEPEND="
-	app-doc/doxygen
 	dev-libs/libxml2
 	>=media-libs/oyranos-0.9.6
 	>=x11-wm/compiz-${PV}

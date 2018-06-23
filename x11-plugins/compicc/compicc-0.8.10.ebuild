@@ -12,7 +12,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
-	app-doc/doxygen
 	dev-libs/libxml2
 	>=media-libs/oyranos-0.9.6
 	>=x11-wm/compiz-0.8
@@ -25,6 +24,7 @@ RDEPEND="
 "
 
 DEPEND="${RDEPEND}
+	app-doc/doxygen
 	>=dev-util/intltool-0.35
 	>=sys-devel/gettext-0.17
 	virtual/pkgconfig

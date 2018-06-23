@@ -6,6 +6,7 @@ EAPI=6
 inherit autotools eutils git-r3 gnome2-utils
 
 DESCRIPTION="Compiz Window Manager: Community Plugins"
+HOMEPAGE="https://wiki.gentoo.org/wiki/No_homepage"
 EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 
 LICENSE="GPL-2+ BSD"

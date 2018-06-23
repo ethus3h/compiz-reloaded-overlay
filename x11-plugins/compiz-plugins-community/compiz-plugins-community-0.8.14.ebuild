@@ -6,6 +6,7 @@ EAPI=6
 inherit autotools eutils
 
 DESCRIPTION="Compiz Window Manager: Community Plugins"
+HOMEPAGE="https://wiki.gentoo.org/wiki/No_homepage"
 SRC_URI="https://github.com/ethus3h/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2+"
