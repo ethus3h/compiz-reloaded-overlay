@@ -20,12 +20,12 @@ RDEPEND="
 	>=x11-wm/compiz-${PV}
 	virtual/jpeg:0
 	libnotify? ( x11-libs/libnotify )
+	x11-libs/cairo
 "
 
 DEPEND="${RDEPEND}
 	>=dev-util/intltool-0.35
 	>=sys-devel/gettext-0.15
-	x11-libs/cairo
 	virtual/pkgconfig
 "
 

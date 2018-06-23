@@ -22,13 +22,13 @@ RDEPEND="
 	<x11-plugins/compiz-plugins-main-0.9
 	>=x11-wm/compiz-0.8
 	<x11-wm/compiz-0.9
+	x11-libs/cairo
 "
 
 DEPEND="${RDEPEND}
 	>=dev-util/intltool-0.35
 	>=sys-devel/gettext-0.15
 	virtual/pkgconfig
-	x11-libs/cairo
 "
 
 src_prepare(){

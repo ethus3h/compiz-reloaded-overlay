@@ -6,7 +6,6 @@ EAPI=6
 inherit autotools eutils git-r3 gnome2-utils
 
 DESCRIPTION="Compiz Window Manager: Community Plugins"
-HOMEPAGE="http://futuramerlin.com/"
 EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 
 LICENSE="GPL-2+ BSD"
@@ -19,13 +18,13 @@ RDEPEND="
 	>=x11-libs/compiz-bcop-${PV}
 	>=x11-plugins/compiz-plugins-experimental-${PV}
 	>=x11-wm/compiz-${PV}
+	x11-libs/cairo
 "
 
 DEPEND="${RDEPEND}
 	>=dev-util/intltool-0.35
 	>=sys-devel/gettext-0.15
 	virtual/pkgconfig
-	x11-libs/cairo
 "
 
 src_prepare(){

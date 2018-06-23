@@ -4,7 +4,6 @@
 EAPI=6
 
 DESCRIPTION="Extra snowflake textures for Compiz"
-HOMEPAGE="https://futuramerlin.com/"
 SRC_URI="https://github.com/ethus3h/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="AGPL-3"

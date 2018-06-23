@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit autotools
+inherit autotools gnome2-utils
 
 DESCRIPTION="Emerald Window Decorator"
 HOMEPAGE="https://github.com/compiz-reloaded"
@@ -39,9 +39,6 @@ DEPEND="${RDEPEND}
 "
 
 src_prepare() {
-	# fix build with gtk+-2.22 - bug 341143
-	sed -i -e '/#define G[DT]K_DISABLE_DEPRECATED/s:^://:' \
-		include/emerald.h || die
 	default
 	eautoreconf
 }

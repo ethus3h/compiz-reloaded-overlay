@@ -6,7 +6,6 @@ EAPI=6
 inherit git-r3
 
 DESCRIPTION="Extra snowflake textures for Compiz"
-HOMEPAGE="https://futuramerlin.com/"
 EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 
 LICENSE="AGPL-3"

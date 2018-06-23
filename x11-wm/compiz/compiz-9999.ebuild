@@ -99,14 +99,17 @@ src_configure() {
 }
 
 src_install() {
+	addpredict /usr/share/compiz/icons/hicolor/.icon-theme.cache
 	default
 	find "${D}" -name '*.la' -delete || die
 }
 
 pkg_postinst() {
+	gnome2_icon_cache_update
 	use gsettings && gnome2_schemas_update
 }
 
 pkg_postrm() {
+	gnome2_icon_cache_update
 	use gsettings && gnome2_schemas_update
 }

@@ -26,9 +26,6 @@ RDEPEND="
 "
 
 python_prepare_all() {
-	# return error if wrong arguments passed to setup.py
-	sed -i -e 's/raise SystemExit/\0(1)/' setup.py || die 'sed on setup.py failed'
-
 	# correct gettext behavior
 	if [[ -n "${LINGUAS+x}" ]] ; then
 		for i in $(cd po ; echo *po | sed 's/\.po//g') ; do

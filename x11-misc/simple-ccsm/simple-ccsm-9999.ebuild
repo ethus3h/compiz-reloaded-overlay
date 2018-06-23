@@ -28,12 +28,6 @@ RDEPEND="
 	>=x11-misc/ccsm-${PV}[gtk3=,${PYTHON_USEDEP}]
 "
 
-python_prepare_all() {
-	# return error if wrong arguments passed to setup.py
-	sed -i -e 's/raise SystemExit/\0(1)/' setup.py || die 'sed on setup.py failed'
-	distutils-r1_python_prepare_all
-}
-
 python_configure_all() {
 	mydistutilsargs=(
 		build \
