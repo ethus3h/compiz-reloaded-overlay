@@ -10,8 +10,8 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">compiz-reloaded/libcompizconfig</remote-id>
-		<bugs-to>https://github.com/compiz-reloaded/libcompizconfig/issues</bugs-to>
+		<remote-id type="gitlab">compiz/libcompizconfig</remote-id>
+		<bugs-to>https://gitlab.com/compiz/libcompizconfig/issues</bugs-to>
 	</upstream>
 	<longdescription lang="en">Libcompizconfig is an alternative configuration system for compiz.</longdescription>
 </pkgmetadata>

@@ -19,8 +19,8 @@
 		<flag name="mate">Build MATE compatibility plugin</flag>
 	</use>
 	<upstream>
-		<remote-id type="github">compiz-reloaded/compiz</remote-id>
-		<bugs-to>https://github.com/compiz-reloaded/compiz/issues</bugs-to>
+		<remote-id type="gitlab">compiz/compiz</remote-id>
+		<bugs-to>https://gitlab.com/compiz/compiz/issues</bugs-to>
 	</upstream>
 	<longdescription lang="en">Compiz is a compositing window manager that uses 3D graphics acceleration via OpenGL.</longdescription>
 </pkgmetadata>

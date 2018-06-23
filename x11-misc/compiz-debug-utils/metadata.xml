@@ -10,8 +10,8 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">compiz-reloaded/compiz-debug-utils</remote-id>
-		<bugs-to>https://github.com/compiz-reloaded/compiz-debug-utils/issues</bugs-to>
+		<remote-id type="gitlab">compiz/compiz-debug-utils</remote-id>
+		<bugs-to>https://gitlab.com/compiz/compiz-debug-utils/issues</bugs-to>
 	</upstream>
 	<longdescription lang="en">Tools for debugging Compiz.</longdescription>
 </pkgmetadata>

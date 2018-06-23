@@ -13,8 +13,8 @@
 		<flag name="gtk3">Build with GTK+3 instead of GTK+2</flag>
 	</use>
 	<upstream>
-		<remote-id type="github">compiz-reloaded/simple-ccsm</remote-id>
-		<bugs-to>https://github.com/compiz-reloaded/simple-ccsm/issues</bugs-to>
+		<remote-id type="gitlab">compiz/simple-ccsm</remote-id>
+		<bugs-to>https://gitlab.com/compiz/simple-ccsm/issues</bugs-to>
 	</upstream>
 	<longdescription lang="en">Simplified Compizconfig Settings Manager.</longdescription>
 </pkgmetadata>

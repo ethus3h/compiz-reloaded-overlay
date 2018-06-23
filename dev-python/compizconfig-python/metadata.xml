@@ -10,8 +10,8 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">compiz-reloaded/compizconfig-python</remote-id>
-		<bugs-to>https://github.com/compiz-reloaded/compizconfig-python/issues</bugs-to>
+		<remote-id type="gitlab">compiz/compizconfig-python</remote-id>
+		<bugs-to>https://gitlab.com/compiz/compizconfig-python/issues</bugs-to>
 	</upstream>
 	<longdescription lang="en">Python bindings for libraries/plugins for compizconfig-settings.</longdescription>
 </pkgmetadata>

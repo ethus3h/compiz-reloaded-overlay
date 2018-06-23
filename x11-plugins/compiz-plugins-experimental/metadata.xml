@@ -10,8 +10,8 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">compiz-reloaded/compiz-plugins-experimental</remote-id>
-		<bugs-to>https://github.com/compiz-reloaded/compiz-plugins-experimental/issues</bugs-to>
+		<remote-id type="gitlab">compiz/compiz-plugins-experimental</remote-id>
+		<bugs-to>https://gitlab.com/compiz/compiz-plugins-experimental/issues</bugs-to>
 	</upstream>
 	<longdescription lang="en">Experimental plugins for the Compiz compositing window manager.</longdescription>
 </pkgmetadata>

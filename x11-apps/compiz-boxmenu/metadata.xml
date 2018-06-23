@@ -10,8 +10,8 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">compiz-reloaded/compiz-boxmenu</remote-id>
-		<bugs-to>https://github.com/compiz-reloaded/compiz-boxmenu/issues</bugs-to>
+		<remote-id type="gitlab">compiz/compiz-boxmenu</remote-id>
+		<bugs-to>https://gitlab.com/compiz/compiz-boxmenu/issues</bugs-to>
 	</upstream>
 	<longdescription lang="en">A desktop menu for Compiz which introduces extensive icon support, pipeitems, recent documents list, and more.</longdescription>
 </pkgmetadata>

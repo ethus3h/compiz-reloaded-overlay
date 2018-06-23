@@ -10,8 +10,8 @@
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">compiz-reloaded/emerald-themes</remote-id>
-		<bugs-to>https://github.com/compiz-reloaded/emerald-themes/issues</bugs-to>
+		<remote-id type="gitlab">compiz/emerald-themes</remote-id>
+		<bugs-to>https://gitlab.com/compiz/emerald-themes/issues</bugs-to>
 	</upstream>
 	<longdescription lang="en">Themes for the Emerald window decorator</longdescription>
 </pkgmetadata>
