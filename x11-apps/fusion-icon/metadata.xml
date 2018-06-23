@@ -12,7 +12,6 @@
 	<use>
 		<flag name="gtk2">Build with GTK+2</flag>
 		<flag name="gtk3">Build with GTK+3</flag>
-		<flag name="qt4">Build with QT4</flag>
 		<flag name="qt5">Build with QT5</flag>
 	</use>
 	<upstream>

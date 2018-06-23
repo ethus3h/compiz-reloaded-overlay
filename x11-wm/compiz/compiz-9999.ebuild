@@ -96,7 +96,6 @@ src_configure() {
 }
 
 src_install() {
-	addpredict /usr/share/compiz/icons/hicolor/.icon-theme.cache
 	default
 	find "${D}" -name '*.la' -delete || die
 }
