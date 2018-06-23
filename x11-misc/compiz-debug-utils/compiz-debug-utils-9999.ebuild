@@ -18,7 +18,7 @@ IUSE="test"
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 RDEPEND="${PYTHON_DEPS}
-		=x11-wm/compiz-${PV}[dbus]
+		>=x11-wm/compiz-${PV}[dbus]
 "
 DEPEND="${RDEPEND}"
 
