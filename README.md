@@ -6,9 +6,48 @@ Repoman status: [![Build Status](https://travis-ci.org/ethus3h/compiz-reloaded-o
 
 This overlay provides ebuilds for Compiz-Reloaded.
 
-To add it to Portage using `layman`, run `layman -o https://github.com/ethus3h/compiz-reloaded-overlay/raw/master/compiz-reloaded.xml -f -a compiz-reloaded`.
+### How to add the overlay
 
-### Version and live ebuilds
+#### Adding using Layman
+
+To add this overlay to Portage using `layman`, run `layman -o https://github.com/ethus3h/compiz-reloaded-overlay/raw/master/compiz-reloaded.xml -f -a compiz-reloaded`. To update the repository, run `layman -s compiz-reloaded` (or `layman -S` to update all the installed overlays managed by Layman).
+
+#### Adding using repos.conf
+
+To add this overlay to Portage in `repos.conf`, here is example configuration for it:
+
+```
+[compiz-reloaded]
+priority = 50
+location = /var/lib/layman/compiz-reloaded
+sync-type = git
+sync-uri = https://github.com/ethus3h/compiz-reloaded-overlay.git
+auto-sync = yes
+clone-depth = 0
+```
+
+See the Gentoo wiki page at https://wiki.gentoo.org/wiki//etc/portage/repos.conf for how to use this. If `auto-sync` is set to `yes`, as it is in this example, the repository should be automatically updated when you update your system.
+
+#### Adding using eselect-repository (not tested)
+
+To add this overlay to Portage using `eselect-repository`, run `eselect repository add compiz-reloaded git https://github.com/ethus3h/compiz-reloaded-overlay.git`. The repository should be automatically updated when you update your system.
+
+### Installation of packages
+
+#### Version and live ebuilds
+
+You can use ''version'' ebuilds, which correspond to the released versions of compiz-reloaded, or ''live'' ebuilds, which pull in the latest commits from the compiz-reloaded git repository at build time.
+
+If you use the version ebuilds, they will need to accept the Portage keywords for either `~amd64` or `~x86` depending on the architecture; other architectures aren't given keywords in these ebuilds right now.
+
+If you use the live ebuilds, keywords will need to be ignored (`**`) as live ebuilds declare no keywords for safety.
+
+To see how to do this, see the Gentoo wiki pages at https://wiki.gentoo.org/wiki/ACCEPT_KEYWORDS and https://wiki.gentoo.org/wiki//etc/portage/package.accept_keywords.
+
+#### Available packages
+
+These packages are provided by this overlay, with both version and live ebuilds available for each. Once the overlay is installed and keywords have been set, these can be `emerge`d as with any other Gentoo package.
+
 - dev-python/compizconfig-python
 - x11-apps/compiz-boxmenu
 - x11-apps/compiz-manager
@@ -29,3 +68,13 @@ To add it to Portage using `layman`, run `layman -o https://github.com/ethus3h/c
 - x11-wm/compiz
 - x11-wm/compiz-meta
 - x11-wm/emerald
+
+#### Updating packages
+
+Version ebuilds will be updated automatically in the usual manner of installed packages. Live ebuilds will not be automatically updated when updating your installed packages, but can be updated by running `smart-live-rebuild` (if that command is not available, it can be installed by running `emerge app-portage/smart-live-rebuild`).
+
+### Getting help
+
+Feel free to ask questions in the issues here, or to ask kyan on Freenode IRC. Email can be sent to [elliot@futuramerlin.com](mailto:elliot@futuramerlin.com) but is not recommended as I may not see it.
+
+Good luck!
