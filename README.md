@@ -77,4 +77,6 @@ Version ebuilds will be updated automatically in the usual manner of installed p
 
 Feel free to ask questions in the issues here, or to ask kyan on Freenode IRC. Email can be sent to [elliot@futuramerlin.com](mailto:elliot@futuramerlin.com) but is not recommended as I may not see it.
 
+For general discussion about Compiz-Reloaded, [the #compiz-reloaded channel](irc://irc.freenode.net/compiz-reloaded) on the Freenode IRC network is available.
+
 Good luck!
