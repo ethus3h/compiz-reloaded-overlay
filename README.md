@@ -1,16 +1,12 @@
 # compiz-reloaded-overlay
 
-This package is part of Wreathe, and is maintained by the Ember project.
-
-Learn about Wreathe at the Ember Web site: http://futuramerlin.com/ancillary/wreathe/
-
-Please report any issues you find with this repository to the Ember project's issue tracker at http://futuramerlin.com/issue-tracker/.
-
 ## Info
 
 Repoman status: [![Build Status](https://travis-ci.org/ethus3h/compiz-reloaded-overlay.svg?branch=master)](https://travis-ci.org/ethus3h/compiz-reloaded-overlay)
 
 This overlay provides ebuilds for Compiz-Reloaded.
+
+To add it to Portage using `layman`, run `layman -o https://github.com/ethus3h/compiz-reloaded-overlay/raw/master/compiz-reloaded.xml -f -a compiz-reloaded`.
 
 ### Version and live ebuilds
 - dev-python/compizconfig-python
