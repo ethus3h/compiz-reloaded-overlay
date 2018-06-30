@@ -40,7 +40,7 @@ You can use ''version'' ebuilds, which correspond to the released versions of co
 
 If you use the version ebuilds, they will need to accept the Portage keywords for either `~amd64` or `~x86` depending on the architecture; other architectures aren't given keywords in these ebuilds right now.
 
-If you use the live ebuilds, keywords will need to be ignored (`**`) as live ebuilds declare no keywords for safety.
+If you use the live ebuilds, keywords will need to be ignored (`**`) as live ebuilds declare no keywords.
 
 To see how to do this, see the Gentoo wiki pages at https://wiki.gentoo.org/wiki/ACCEPT_KEYWORDS and https://wiki.gentoo.org/wiki//etc/portage/package.accept_keywords.
 
