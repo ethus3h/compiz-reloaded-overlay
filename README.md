@@ -71,7 +71,9 @@ These packages are provided by this overlay, with both version and live ebuilds 
 
 ### Updating packages
 
-Version ebuilds will be updated automatically in the usual manner of installed packages. Live ebuilds will not be automatically updated when updating your installed packages, but can be updated by running `smart-live-rebuild` (if that command is not available, it can be installed by running `emerge app-portage/smart-live-rebuild`).
+Version ebuilds will be updated automatically in the usual manner of installed packages.
+
+Live ebuilds will not be automatically updated when updating your installed packages, but can be updated by running `smart-live-rebuild` (if that command is not available, it can be installed by running `emerge app-portage/smart-live-rebuild`).
 
 ### Getting help
 
