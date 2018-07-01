@@ -69,7 +69,7 @@ These packages are provided by this overlay, with both version and live ebuilds 
 - x11-wm/compiz-meta
 - x11-wm/emerald
 
-#### Updating packages
+### Updating packages
 
 Version ebuilds will be updated automatically in the usual manner of installed packages. Live ebuilds will not be automatically updated when updating your installed packages, but can be updated by running `smart-live-rebuild` (if that command is not available, it can be installed by running `emerge app-portage/smart-live-rebuild`).
 
