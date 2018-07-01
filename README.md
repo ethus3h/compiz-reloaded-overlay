@@ -4,7 +4,7 @@
 
 Repoman status: [![Build Status](https://travis-ci.org/ethus3h/compiz-reloaded-overlay.svg?branch=master)](https://travis-ci.org/ethus3h/compiz-reloaded-overlay)
 
-This overlay provides ebuilds for Compiz-Reloaded.
+This overlay provides ebuilds for Compiz-Reloaded. The instructions below document how to add and use this overlay with Portage. (If you prefer to use the overlay differently than below, feel free.)
 
 ### How to add the overlay
 
