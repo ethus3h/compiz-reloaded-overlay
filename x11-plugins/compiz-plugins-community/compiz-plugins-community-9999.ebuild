@@ -62,7 +62,7 @@ compiz_icon_cache_update() {
     # Based on https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/gnome2-utils.eclass#n241
     local dir="${EROOT}/usr/share/compiz/icons/hicolor"
     local updater="${EROOT}/usr/bin/gtk-update-icon-cache"
-    if [[ -z "$dir" ]]; then
+    if [[ -n "$(ls "$dir")" ]]; then
         "${updater}" -q -f -t "${dir}"
         rv=$?
 
