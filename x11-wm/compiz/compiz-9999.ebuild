@@ -97,12 +97,40 @@ src_configure() {
 
 src_install() {
 	default
-	rm "${D}"/usr/share/compiz/icons/hicolor/icon-theme.cache || die
 	find "${D}" -name '*.la' -delete || die
+}
+
+compiz_icon_cache_update() {
+    # Based on https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/gnome2-utils.eclass#n241
+    dir='/usr/share/compiz/icons/hicolor'
+    if [[ -f "${dir}/index.theme" ]] ; then
+        local rv=0
+
+        "${updater}" -qf "${dir}"
+        rv=$?
+
+        if [[ ! $rv -eq 0 ]] ; then
+            debug-print "Updating cache failed on ${dir}"
+
+            # Add to the list of failures
+            fails+=( "${dir}" )
+
+            retval=2
+        fi
+    elif [[ $(ls "${dir}") = "icon-theme.cache" ]]; then
+        # Clear stale cache files after theme uninstallation
+        rm "${dir}/icon-theme.cache"
+    fi
+
+    if [[ -z $(ls "${dir}") ]]; then
+        # Clear empty theme directories after theme uninstallation
+        rmdir "${dir}"
+    fi
 }
 
 pkg_postinst() {
 	gnome2_icon_cache_update
+	gtk-update-icon-cache -q -f -t 
 	use gsettings && gnome2_schemas_update
 }
 
