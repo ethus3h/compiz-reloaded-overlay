@@ -101,12 +101,11 @@ src_install() {
 }
 
 compiz_icon_cache_update() {
+    # Needed because compiz needs its own icon cache.
     # Based on https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/gnome2-utils.eclass#n241
-    dir='/usr/share/compiz/icons/hicolor'
-    if [[ -f "${dir}/index.theme" ]] ; then
-        local rv=0
-
-        "${updater}" -qf "${dir}"
+    local dir="${EROOT}/usr/share/compiz/icons/hicolor"
+    local updater="${EROOT}/usr/bin/gtk-update-icon-cache"
+        "${updater}" -q -f -t "${dir}"
         rv=$?
 
         if [[ ! $rv -eq 0 ]] ; then
@@ -130,11 +129,12 @@ compiz_icon_cache_update() {
 
 pkg_postinst() {
 	gnome2_icon_cache_update
-	gtk-update-icon-cache -q -f -t 
+	compiz_icon_cache_update
 	use gsettings && gnome2_schemas_update
 }
 
 pkg_postrm() {
 	gnome2_icon_cache_update
+	compiz_icon_cache_update
 	use gsettings && gnome2_schemas_update
 }
