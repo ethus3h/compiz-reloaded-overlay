@@ -40,7 +40,6 @@ src_configure() {
 
 src_install() {
 	default
-	rm "${D}"/usr/share/compiz/icons/hicolor/icon-theme.cache || die
 	find "${D}" -name '*.la' -delete || die
 }
 
