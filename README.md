@@ -77,7 +77,7 @@ Live ebuilds will not be automatically updated when updating your installed pack
 
 ### Getting help
 
-Feel free to ask questions in the issues here, or to ask kyan on Freenode IRC. (Email can be sent to [elliot@futuramerlin.com](mailto:elliot@futuramerlin.com) but is not recommended as I may not see it.)
+Feel free to ask questions in the [issue tracker](https://github.com/ethus3h/compiz-reloaded-overlay/issues). (You can also ask kyan on Freenode IRC, or send email to [elliot@futuramerlin.com](mailto:elliot@futuramerlin.com), but these are not recommended as I may not see them.)
 
 For general discussion about Compiz-Reloaded, [the #compiz-reloaded channel](irc://irc.freenode.net/compiz-reloaded) on the Freenode IRC network is available.
 
