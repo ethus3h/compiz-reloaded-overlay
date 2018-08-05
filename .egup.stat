@@ -1,0 +1,2142 @@
+  File: ./CODE_OF_CONDUCT.md\
+
+  Size: 3229      	Blocks: 4          IO Block: 3584   regular file\
+
+Device: 32h/50d	Inode: 378373      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-06-22 23:49:36.979418597 -0400\
+
+Modify: 2017-07-10 03:59:23.573264965 -0400\
+
+Change: 2017-07-10 03:59:23.573264965 -0400\
+
+ Birth: -\
+
+
+
+  File: ./dev-python\
+
+  Size: 3         	Blocks: 1          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477253      Links: 3\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2017-06-01 17:52:42.349596496 -0400\
+
+Change: 2017-06-01 17:52:42.349596496 -0400\
+
+ Birth: -\
+
+
+
+  File: ./dev-python/compizconfig-python\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477254      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.389319582 -0400\
+
+ Birth: -\
+
+
+
+  File: ./dev-python/compizconfig-python/compizconfig-python-0.8.14.ebuild\
+
+  Size: 739       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477256      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.196678206 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./dev-python/compizconfig-python/Manifest\
+
+  Size: 1248      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791381    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.196678206 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.389319582 -0400\
+
+ Birth: -\
+
+
+
+  File: ./dev-python/compizconfig-python/compizconfig-python-9999.ebuild\
+
+  Size: 728       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477257      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.196678206 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./dev-python/compizconfig-python/metadata.xml\
+
+  Size: 647       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477258      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.196678206 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./.git\
+
+  Size: 84        	Blocks: 1          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 477196      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.446673522 -0400\
+
+Modify: 2017-06-01 17:52:42.339596389 -0400\
+
+Change: 2017-06-01 17:52:42.339596389 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins\
+
+  Size: 9         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477306      Links: 9\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 01:09:55.882492792 -0400\
+
+Change: 2018-06-23 01:09:55.882492792 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-meta\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477329      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:50:20.000000000 -0400\
+
+Change: 2018-06-23 01:09:55.882492792 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-meta/Manifest\
+
+  Size: 929       	Blocks: 3          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 15791233    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.176690558 -0400\
+
+Modify: 2018-06-23 00:50:20.000000000 -0400\
+
+Change: 2018-06-23 00:50:53.839113036 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-meta/compiz-plugins-meta-9999.ebuild\
+
+  Size: 668       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477332      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.176690558 -0400\
+
+Modify: 2018-06-23 00:50:20.059033824 -0400\
+
+Change: 2018-06-23 00:50:20.059033824 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-meta/compiz-plugins-meta-0.8.14.ebuild\
+
+  Size: 680       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477331      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.176690558 -0400\
+
+Modify: 2018-06-23 00:50:20.059033824 -0400\
+
+Change: 2018-06-23 00:50:20.059033824 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-meta/metadata.xml\
+
+  Size: 958       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477333      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.176690558 -0400\
+
+Modify: 2018-05-13 04:24:46.804717975 -0400\
+
+Change: 2018-05-13 04:24:46.804717975 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-extra-snowflake-textures\
+
+  Size: 6         	Blocks: 19         IO Block: 16384  directory\
+
+Device: 32h/50d	Inode: 219512      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 03:06:23.000000000 -0400\
+
+Change: 2018-06-23 03:06:26.449475334 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-extra-snowflake-textures/metadata.xml\
+
+  Size: 650       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 1056886     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.366685506 -0400\
+
+Modify: 2018-05-12 20:50:09.675709684 -0400\
+
+Change: 2018-05-12 20:50:09.675709684 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-extra-snowflake-textures/compiz-extra-snowflake-textures-9999.ebuild\
+
+  Size: 563       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 3205426     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.366685506 -0400\
+
+Modify: 2018-06-23 03:06:23.259464361 -0400\
+
+Change: 2018-06-23 03:06:23.259464361 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-extra-snowflake-textures/Manifest\
+
+  Size: 1285      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791737    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.366685506 -0400\
+
+Modify: 2018-06-23 03:06:23.000000000 -0400\
+
+Change: 2018-06-23 03:06:26.449475334 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-extra-snowflake-textures/compiz-extra-snowflake-textures-0.8.14.ebuild\
+
+  Size: 547       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 1332951     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.366685506 -0400\
+
+Modify: 2018-06-23 03:02:10.028558993 -0400\
+
+Change: 2018-06-23 03:02:10.028558993 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-extra\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477319      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-07-16 00:04:43.000000000 -0400\
+
+Change: 2018-07-16 00:05:07.171099085 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-extra/compiz-plugins-extra-9999.ebuild\
+
+  Size: 1852      	Blocks: 3          IO Block: 2048   regular file\
+
+Device: 32h/50d	Inode: 12330378    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.876688688 -0400\
+
+Modify: 2018-07-16 00:04:43.471015467 -0400\
+
+Change: 2018-07-16 00:04:43.471015467 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-extra/metadata.xml\
+
+  Size: 641       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477323      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.986689372 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-extra/compiz-plugins-extra-0.8.14.ebuild\
+
+  Size: 921       	Blocks: 3          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477321      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.786688125 -0400\
+
+Modify: 2018-06-23 00:50:20.059033824 -0400\
+
+Change: 2018-06-23 00:50:20.059033824 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-extra/Manifest\
+
+  Size: 1253      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 12330380    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.986689372 -0400\
+
+Modify: 2018-07-16 00:04:43.000000000 -0400\
+
+Change: 2018-07-16 00:05:07.171099085 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compicc\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477307      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.519319927 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compicc/Manifest\
+
+  Size: 1211      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791116    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.366685506 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.519319927 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compicc/metadata.xml\
+
+  Size: 588       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477311      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.366685506 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compicc/compicc-9999.ebuild\
+
+  Size: 598       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477310      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.366685506 -0400\
+
+Modify: 2018-06-23 00:50:19.979033641 -0400\
+
+Change: 2018-06-23 00:50:19.979033641 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compicc/compicc-0.8.10.ebuild\
+
+  Size: 647       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477309      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.356685445 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-community\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 3192623     Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-07-16 00:16:57.863560602 -0400\
+
+Change: 2018-07-16 00:16:57.863560602 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-community/Manifest\
+
+  Size: 1265      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 12330654    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.576686817 -0400\
+
+Modify: 2018-07-16 00:04:27.000000000 -0400\
+
+Change: 2018-07-16 00:05:06.921098204 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-community/compiz-plugins-community-0.8.14.ebuild\
+
+  Size: 876       	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 3192625     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.376685570 -0400\
+
+Modify: 2018-06-23 00:49:03.978870829 -0400\
+
+Change: 2018-06-23 00:49:03.978870829 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-community/metadata.xml\
+
+  Size: 666       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 3192624     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.576686817 -0400\
+
+Modify: 2018-05-13 04:20:12.944046434 -0400\
+
+Change: 2018-05-13 04:20:12.944046434 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-community/compiz-plugins-community-9999.ebuild\
+
+  Size: 2566      	Blocks: 4          IO Block: 3072   regular file\
+
+Device: 32h/50d	Inode: 12330509    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.466686131 -0400\
+
+Modify: 2018-07-16 00:04:27.550959320 -0400\
+
+Change: 2018-07-16 00:04:27.560959356 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-experimental\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477312      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-07-16 00:04:56.000000000 -0400\
+
+Change: 2018-07-16 00:05:07.041098627 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-experimental/metadata.xml\
+
+  Size: 662       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477318      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.786688125 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-experimental/compiz-plugins-experimental-9999.ebuild\
+
+  Size: 1933      	Blocks: 3          IO Block: 2048   regular file\
+
+Device: 32h/50d	Inode: 12330510    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.676687439 -0400\
+
+Modify: 2018-07-16 00:04:56.921062917 -0400\
+
+Change: 2018-07-16 00:04:56.931062952 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-experimental/compiz-plugins-experimental-0.8.14.ebuild\
+
+  Size: 1032      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 477314      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.586686879 -0400\
+
+Modify: 2018-06-23 00:50:20.059033824 -0400\
+
+Change: 2018-06-23 00:50:20.059033824 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-experimental/Manifest\
+
+  Size: 1276      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 12330379    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.786688125 -0400\
+
+Modify: 2018-07-16 00:04:56.000000000 -0400\
+
+Change: 2018-07-16 00:05:07.041098627 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-main\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477324      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-07-16 00:04:48.000000000 -0400\
+
+Change: 2018-07-16 00:05:07.311099580 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-main/compiz-plugins-main-9999.ebuild\
+
+  Size: 1784      	Blocks: 3          IO Block: 2048   regular file\
+
+Device: 32h/50d	Inode: 12330633    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.066689870 -0400\
+
+Modify: 2018-07-16 00:04:48.711033951 -0400\
+
+Change: 2018-07-16 00:04:48.731034021 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-main/Manifest\
+
+  Size: 1250      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 12330655    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.176690558 -0400\
+
+Modify: 2018-07-16 00:04:48.000000000 -0400\
+
+Change: 2018-07-16 00:05:07.311099580 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-main/metadata.xml\
+
+  Size: 645       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477328      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.176690558 -0400\
+
+Modify: 2018-06-23 00:52:05.669293901 -0400\
+
+Change: 2018-06-23 00:52:05.669293901 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-plugins/compiz-plugins-main/compiz-plugins-main-0.8.14.ebuild\
+
+  Size: 768       	Blocks: 3          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477326      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.986689372 -0400\
+
+Modify: 2018-06-23 00:50:20.059033824 -0400\
+
+Change: 2018-06-23 00:50:20.059033824 -0400\
+
+ Birth: -\
+
+
+
+  File: ./LICENSE.md\
+
+  Size: 17894     	Blocks: 15         IO Block: 17920  regular file\
+
+Device: 32h/50d	Inode: 3187018     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-06-22 23:49:36.979418597 -0400\
+
+Modify: 2017-06-01 18:10:23.117623284 -0400\
+
+Change: 2017-06-01 18:10:23.117623284 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps\
+
+  Size: 5         	Blocks: 1          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477268      Links: 5\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2017-06-01 17:52:42.349596496 -0400\
+
+Change: 2017-06-01 17:52:42.349596496 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/fusion-icon\
+
+  Size: 6         	Blocks: 3          IO Block: 1024   directory\
+
+Device: 32h/50d	Inode: 477279      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.429319687 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/fusion-icon/Manifest\
+
+  Size: 1226      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791113    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.846682264 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.429319687 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/fusion-icon/fusion-icon-9999.ebuild\
+
+  Size: 1180      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 477282      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.686681264 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/fusion-icon/metadata.xml\
+
+  Size: 747       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477283      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.846682264 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/fusion-icon/fusion-icon-0.2.4-r1.ebuild\
+
+  Size: 1273      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 6686510     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.446679768 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-manager\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477274      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.409319633 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-manager/compiz-manager-9999.ebuild\
+
+  Size: 454       	Blocks: 2          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 477277      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.446679768 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-manager/compiz-manager-0.7.0.ebuild\
+
+  Size: 500       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477276      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.446679768 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-manager/metadata.xml\
+
+  Size: 631       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477278      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.446679768 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-manager/Manifest\
+
+  Size: 1229      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791112    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.446679768 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.409319633 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-boxmenu\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477269      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.399319608 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-boxmenu/Manifest\
+
+  Size: 1232      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791243    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.436679706 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.399319608 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-boxmenu/compiz-boxmenu-9999.ebuild\
+
+  Size: 786       	Blocks: 3          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477272      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.326679017 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-boxmenu/compiz-boxmenu-1.1.12.ebuild\
+
+  Size: 819       	Blocks: 3          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477271      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.206678270 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-apps/compiz-boxmenu/metadata.xml\
+
+  Size: 683       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477273      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.436679706 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./.travis.yml\
+
+  Size: 1703      	Blocks: 3          IO Block: 2048   regular file\
+
+Device: 32h/50d	Inode: 477250      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-06-23 02:05:06.788173824 -0400\
+
+Modify: 2018-06-23 02:05:06.518173216 -0400\
+
+Change: 2018-06-23 02:05:06.518173216 -0400\
+
+ Birth: -\
+
+
+
+  File: ./compiz-reloaded.xml\
+
+  Size: 696       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477416      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-07-15 23:30:51.564413440 -0400\
+
+Modify: 2017-09-06 13:58:51.723392921 -0400\
+
+Change: 2017-09-06 13:58:51.723392921 -0400\
+
+ Birth: -\
+
+
+
+  File: ./.egup.hooks\
+
+  Size: 337       	Blocks: 2          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 4317645     Links: 1\
+
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.506673897 -0400\
+
+Modify: 2018-05-12 22:54:51.745743481 -0400\
+
+Change: 2018-05-12 22:54:51.745743481 -0400\
+
+ Birth: -\
+
+
+
+  File: ./metadata\
+
+  Size: 3         	Blocks: 1          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477264      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2017-06-01 17:52:42.349596496 -0400\
+
+Change: 2017-06-01 17:52:42.349596496 -0400\
+
+ Birth: -\
+
+
+
+  File: ./metadata/layout.conf\
+
+  Size: 123       	Blocks: 1          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 477265      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.876676208 -0400\
+
+Modify: 2018-01-12 22:49:19.858835767 -0500\
+
+Change: 2018-01-12 22:49:19.858835767 -0500\
+
+ Birth: -\
+
+
+
+  File: ./profiles\
+
+  Size: 3         	Blocks: 1          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477266      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2017-06-01 19:37:01.318840548 -0400\
+
+Change: 2017-06-01 19:37:01.318840548 -0400\
+
+ Birth: -\
+
+
+
+  File: ./profiles/repo_name\
+
+  Size: 16        	Blocks: 1          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 477267      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.876676208 -0400\
+
+Modify: 2017-06-01 17:52:42.349596496 -0400\
+
+Change: 2017-06-01 17:52:42.349596496 -0400\
+
+ Birth: -\
+
+
+
+  File: ./README.md\
+
+  Size: 3981      	Blocks: 5          IO Block: 4096   regular file\
+
+Device: 32h/50d	Inode: 16778807    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-07-19 00:40:49.323610974 -0400\
+
+Modify: 2018-07-19 00:40:49.313610959 -0400\
+
+Change: 2018-07-19 00:40:49.313610959 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-themes\
+
+  Size: 3         	Blocks: 1          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477334      Links: 3\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2017-06-01 17:52:42.349596496 -0400\
+
+Change: 2017-06-01 17:52:42.349596496 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-themes/emerald-themes\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477335      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.639320246 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-themes/emerald-themes/emerald-themes-9999.ebuild\
+
+  Size: 395       	Blocks: 2          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 477338      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.186690620 -0400\
+
+Modify: 2018-06-23 00:50:20.059033824 -0400\
+
+Change: 2018-06-23 00:50:20.059033824 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-themes/emerald-themes/emerald-themes-0.8.14.ebuild\
+
+  Size: 401       	Blocks: 2          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 477337      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.186690620 -0400\
+
+Modify: 2018-06-23 00:50:20.059033824 -0400\
+
+Change: 2018-06-23 00:50:20.059033824 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-themes/emerald-themes/metadata.xml\
+
+  Size: 612       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477339      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.186690620 -0400\
+
+Modify: 2018-06-23 00:52:05.669293901 -0400\
+
+Change: 2018-06-23 00:52:05.669293901 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-themes/emerald-themes/Manifest\
+
+  Size: 1234      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791248    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.186690620 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.639320246 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm\
+
+  Size: 5         	Blocks: 1          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477340      Links: 5\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2017-06-01 17:52:42.359596606 -0400\
+
+Change: 2017-06-01 17:52:42.359596606 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/emerald\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477350      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.679320352 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/emerald/Manifest\
+
+  Size: 1214      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791057    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.626693361 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.679320352 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/emerald/metadata.xml\
+
+  Size: 715       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477356      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.626693361 -0400\
+
+Modify: 2018-06-23 00:52:05.669293901 -0400\
+
+Change: 2018-06-23 00:52:05.669293901 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/emerald/emerald-0.8.14.ebuild\
+
+  Size: 1180      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 477354      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.406691991 -0400\
+
+Modify: 2018-06-23 00:50:20.069033845 -0400\
+
+Change: 2018-06-23 00:50:20.069033845 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/emerald/emerald-9999.ebuild\
+
+  Size: 1081      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 477355      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.496692551 -0400\
+
+Modify: 2018-06-23 00:50:20.069033845 -0400\
+
+Change: 2018-06-23 00:50:20.069033845 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477345      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-07-16 00:04:32.000000000 -0400\
+
+Change: 2018-07-16 00:05:07.461100109 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz/compiz-0.8.14.ebuild\
+
+  Size: 2240      	Blocks: 4          IO Block: 3072   regular file\
+
+Device: 32h/50d	Inode: 477347      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.196690682 -0400\
+
+Modify: 2018-06-23 00:50:20.069033845 -0400\
+
+Change: 2018-06-23 00:50:20.069033845 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz/Manifest\
+
+  Size: 1213      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 12330303    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.386691864 -0400\
+
+Modify: 2018-07-16 00:04:32.000000000 -0400\
+
+Change: 2018-07-16 00:05:07.461100109 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz/metadata.xml\
+
+  Size: 1151      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 477349      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.386691864 -0400\
+
+Modify: 2018-06-23 00:52:05.669293901 -0400\
+
+Change: 2018-06-23 00:52:05.669293901 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz/compiz-9999.ebuild\
+
+  Size: 2985      	Blocks: 4          IO Block: 3072   regular file\
+
+Device: 32h/50d	Inode: 12330630    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.286691242 -0400\
+
+Modify: 2018-07-16 00:04:32.600977128 -0400\
+
+Change: 2018-07-16 00:04:32.630977234 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz-meta\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477341      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:50:20.000000000 -0400\
+
+Change: 2018-06-23 00:50:54.719115153 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz-meta/compiz-meta-9999.ebuild\
+
+  Size: 904       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477343      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.396691929 -0400\
+
+Modify: 2018-06-23 00:50:20.059033824 -0400\
+
+Change: 2018-06-23 00:50:20.059033824 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz-meta/metadata.xml\
+
+  Size: 896       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477344      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.396691929 -0400\
+
+Modify: 2018-05-12 20:50:43.285660505 -0400\
+
+Change: 2018-05-12 20:50:43.285660505 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz-meta/compiz-meta-0.8.14.ebuild\
+
+  Size: 924       	Blocks: 3          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477342      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.396691929 -0400\
+
+Modify: 2018-06-23 00:50:20.059033824 -0400\
+
+Change: 2018-06-23 00:50:20.059033824 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-wm/compiz-meta/Manifest\
+
+  Size: 913       	Blocks: 3          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 15791234    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:43.396691929 -0400\
+
+Modify: 2018-06-23 00:50:20.000000000 -0400\
+
+Change: 2018-06-23 00:50:54.719115153 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc\
+
+  Size: 5         	Blocks: 1          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477295      Links: 5\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:45:17.008543666 -0400\
+
+Change: 2018-06-23 00:45:17.008543666 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/ccsm\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477296      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.479319821 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/ccsm/Manifest\
+
+  Size: 1205      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791245    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.106683887 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.479319821 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/ccsm/ccsm-0.8.14.ebuild\
+
+  Size: 1173      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 477298      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.866682389 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/ccsm/metadata.xml\
+
+  Size: 659       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477300      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.106683887 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/ccsm/ccsm-9999.ebuild\
+
+  Size: 1106      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 477299      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.986683136 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/simple-ccsm\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477301      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.509319901 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/simple-ccsm/simple-ccsm-0.8.14.ebuild\
+
+  Size: 1014      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 477304      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.116683949 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/simple-ccsm/simple-ccsm-9999.ebuild\
+
+  Size: 924       	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 477305      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.236684697 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/simple-ccsm/metadata.xml\
+
+  Size: 684       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477303      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.356685445 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/simple-ccsm/Manifest\
+
+  Size: 1224      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791115    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.356685445 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.509319901 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/compiz-debug-utils\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 1131437     Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 02:14:59.000000000 -0400\
+
+Change: 2018-06-23 02:15:21.879641942 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/compiz-debug-utils/compiz-debug-utils-0_pre20171023.ebuild\
+
+  Size: 731       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 6630091     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.116683949 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/compiz-debug-utils/metadata.xml\
+
+  Size: 608       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 1131922     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.116683949 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/compiz-debug-utils/compiz-debug-utils-9999.ebuild\
+
+  Size: 587       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 1332952     Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.116683949 -0400\
+
+Modify: 2018-06-23 02:14:59.239585934 -0400\
+
+Change: 2018-06-23 02:14:59.239585934 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-misc/compiz-debug-utils/Manifest\
+
+  Size: 1296      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791337    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:42.116683949 -0400\
+
+Modify: 2018-06-23 02:14:59.000000000 -0400\
+
+Change: 2018-06-23 02:15:21.879641942 -0400\
+
+ Birth: -\
+
+
+
+  File: ./CONTRIBUTING.md\
+
+  Size: 356       	Blocks: 2          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 378374      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-06-22 23:49:36.979418597 -0400\
+
+Modify: 2017-07-10 03:59:23.573264965 -0400\
+
+Change: 2017-07-10 03:59:23.573264965 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs\
+
+  Size: 4         	Blocks: 1          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477284      Links: 4\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2017-06-01 17:52:42.349596496 -0400\
+
+Change: 2017-06-01 17:52:42.349596496 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/libcompizconfig\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477290      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.469319793 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/libcompizconfig/libcompizconfig-0.8.14.ebuild\
+
+  Size: 705       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477292      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.856682325 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/libcompizconfig/metadata.xml\
+
+  Size: 641       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477294      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.866682389 -0400\
+
+Modify: 2018-06-23 00:52:05.659293876 -0400\
+
+Change: 2018-06-23 00:52:05.659293876 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/libcompizconfig/libcompizconfig-9999.ebuild\
+
+  Size: 713       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477293      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.866682389 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/libcompizconfig/Manifest\
+
+  Size: 1236      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791244    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.866682389 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.469319793 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/compiz-bcop\
+
+  Size: 6         	Blocks: 3          IO Block: 512    directory\
+
+Device: 32h/50d	Inode: 477285      Links: 2\
+
+Access: (0755/drwxr-xr-x)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:40.476673709 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.449319741 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/compiz-bcop/compiz-bcop-9999.ebuild\
+
+  Size: 425       	Blocks: 2          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 477288      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.856682325 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/compiz-bcop/compiz-bcop-0.8.14.ebuild\
+
+  Size: 403       	Blocks: 2          IO Block: 512    regular file\
+
+Device: 32h/50d	Inode: 477287      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.856682325 -0400\
+
+Modify: 2018-06-23 00:50:19.969033617 -0400\
+
+Change: 2018-06-23 00:50:19.969033617 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/compiz-bcop/metadata.xml\
+
+  Size: 718       	Blocks: 2          IO Block: 1024   regular file\
+
+Device: 32h/50d	Inode: 477289      Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.856682325 -0400\
+
+Modify: 2018-06-23 00:52:05.019292195 -0400\
+
+Change: 2018-06-23 00:52:05.019292195 -0400\
+
+ Birth: -\
+
+
+
+  File: ./x11-libs/compiz-bcop/Manifest\
+
+  Size: 1223      	Blocks: 3          IO Block: 1536   regular file\
+
+Device: 32h/50d	Inode: 15791114    Links: 1\
+
+Access: (0644/-rw-r--r--)  Uid: ( 1000/    kyan)   Gid: ( 1000/    kyan)\
+
+Access: 2018-08-05 03:43:41.856682325 -0400\
+
+Modify: 2018-06-23 00:52:05.000000000 -0400\
+
+Change: 2018-06-23 00:52:15.449319741 -0400\
+
+ Birth: -\
+
+
+
