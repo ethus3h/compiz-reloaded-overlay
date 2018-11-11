@@ -12,9 +12,8 @@ SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/v${PV}.tar.gz -> ${P}.
 LICENSE="GPL-2+ LGPL-2.1 MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="+cairo compizconfig dbus fuse gsettings +gtk gtk3 inotify marco mate +svg"
-REQUIRED_USE="compizconfig? ( gtk )
-	marco? ( gsettings )
+IUSE="+cairo dbus fuse gsettings +gtk gtk3 inotify marco mate +svg"
+REQUIRED_USE="marco? ( gsettings )
 	gsettings? ( gtk )"
 
 COMMONDEPEND="
@@ -88,7 +87,6 @@ src_configure() {
 		--enable-fast-install
 		--disable-static
 		$(use_enable cairo annotate)
-		$(use_enable compizconfig)
 		$(use_enable dbus)
 		$(use_enable dbus dbus-glib)
 		$(use_enable fuse)
@@ -107,12 +105,42 @@ src_install() {
 	find "${D}" -name '*.la' -delete || die
 }
 
+compiz_icon_cache_update() {
+    # Needed because compiz needs its own icon cache.
+    # Based on https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/gnome2-utils.eclass#n241
+    local dir="${EROOT}/usr/share/compiz/icons/hicolor"
+    local updater="${EROOT}/usr/bin/gtk-update-icon-cache"
+    if [[ -n "$(ls "$dir")" ]]; then
+        "${updater}" -q -f -t "${dir}"
+        rv=$?
+
+        if [[ ! $rv -eq 0 ]] ; then
+            debug-print "Updating cache failed on ${dir}"
+
+            # Add to the list of failures
+            fails+=( "${dir}" )
+
+            retval=2
+        fi
+    elif [[ $(ls "${dir}") = "icon-theme.cache" ]]; then
+        # Clear stale cache files after theme uninstallation
+        rm "${dir}/icon-theme.cache"
+    fi
+
+    if [[ -z $(ls "${dir}") ]]; then
+        # Clear empty theme directories after theme uninstallation
+        rmdir "${dir}"
+    fi
+}
+
 pkg_postinst() {
 	gnome2_icon_cache_update
+	compiz_icon_cache_update
 	use gsettings && gnome2_schemas_update
 }
 
 pkg_postrm() {
 	gnome2_icon_cache_update
+	compiz_icon_cache_update
 	use gsettings && gnome2_schemas_update
 }
