@@ -19,7 +19,7 @@ RDEPEND="
 	debugutils? ( >=x11-misc/compiz-debug-utils-0_pre20171023 )
 	full? (
 		x11-plugins/compiz-plugins-meta[community,compicc,experimental,extra,extra-snowflake-textures]
-		x11-wm/compiz[compizconfig]
+		x11-wm/compiz
 	)
 	emerald? ( >=x11-wm/emerald-${PV} )
 	fusionicon? ( >=x11-apps/fusion-icon-0.2.2 )
