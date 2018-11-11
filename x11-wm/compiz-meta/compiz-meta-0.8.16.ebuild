@@ -24,6 +24,6 @@ RDEPEND="
 	emerald? ( >=x11-wm/emerald-${PV} )
 	fusionicon? ( >=x11-apps/fusion-icon-0.2.2 )
 	manager? ( >=x11-apps/compiz-manager-0.7.0 )
-	simpleccsm? ( >=x11-misc/simple-ccsm-${PV} )
+	simpleccsm? ( >=x11-misc/simple-ccsm-0.8.14.1 )
 "
 REQUIRED_USE="full? ( boxmenu ccsm debugutils emerald fusionicon manager simpleccsm )"

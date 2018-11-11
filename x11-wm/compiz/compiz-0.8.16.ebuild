@@ -36,10 +36,6 @@ COMMONDEPEND="
 	virtual/glu
 	x11-libs/pango
 	cairo? ( >=x11-libs/cairo-1.4[X] )
-	compizconfig? (
-		>=x11-libs/libcompizconfig-0.8
-		<x11-libs/libcompizconfig-0.9
-	)
 	dbus? (
 		sys-apps/dbus
 		dev-libs/dbus-glib
@@ -106,31 +102,31 @@ src_install() {
 }
 
 compiz_icon_cache_update() {
-    # Needed because compiz needs its own icon cache.
-    # Based on https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/gnome2-utils.eclass#n241
-    local dir="${EROOT}/usr/share/compiz/icons/hicolor"
-    local updater="${EROOT}/usr/bin/gtk-update-icon-cache"
-    if [[ -n "$(ls "$dir")" ]]; then
-        "${updater}" -q -f -t "${dir}"
-        rv=$?
+	# Needed because compiz needs its own icon cache.
+	# Based on https://gitweb.gentoo.org/repo/gentoo.git/tree/eclass/gnome2-utils.eclass#n241
+	local dir="${EROOT}/usr/share/compiz/icons/hicolor"
+	local updater="${EROOT}/usr/bin/gtk-update-icon-cache"
+	if [[ -n "$(ls "$dir")" ]]; then
+		"${updater}" -q -f -t "${dir}"
+		rv=$?
 
-        if [[ ! $rv -eq 0 ]] ; then
-            debug-print "Updating cache failed on ${dir}"
+		if [[ ! $rv -eq 0 ]] ; then
+			debug-print "Updating cache failed on ${dir}"
 
-            # Add to the list of failures
-            fails+=( "${dir}" )
+			# Add to the list of failures
+			fails+=( "${dir}" )
 
-            retval=2
-        fi
-    elif [[ $(ls "${dir}") = "icon-theme.cache" ]]; then
-        # Clear stale cache files after theme uninstallation
-        rm "${dir}/icon-theme.cache"
-    fi
+			retval=2
+		fi
+	elif [[ $(ls "${dir}") = "icon-theme.cache" ]]; then
+		# Clear stale cache files after theme uninstallation
+		rm "${dir}/icon-theme.cache"
+	fi
 
-    if [[ -z $(ls "${dir}") ]]; then
-        # Clear empty theme directories after theme uninstallation
-        rmdir "${dir}"
-    fi
+	if [[ -z $(ls "${dir}") ]]; then
+		# Clear empty theme directories after theme uninstallation
+		rmdir "${dir}"
+	fi
 }
 
 pkg_postinst() {
