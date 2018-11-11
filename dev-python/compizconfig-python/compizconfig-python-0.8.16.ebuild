@@ -8,7 +8,7 @@ inherit python-single-r1
 
 DESCRIPTION="Python bindings for libraries/plugins for compizconfig-settings"
 HOMEPAGE="https://gitlab.com/compiz"
-SRC_URI="https://github.com/compiz-reloaded/${PN}/releases/download/v${PV}/${P}.tar.xz"
+SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
