@@ -27,6 +27,11 @@ DEPEND="${RDEPEND}
 
 REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
+src_prepare(){
+	default
+	eautoreconf
+}
+
 src_install() {
 	default
 	find "${D}" -name '*.la' -delete || die

@@ -16,3 +16,8 @@ RDEPEND="dev-libs/libxslt"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig
 "
+
+src_prepare(){
+	default
+	eautoreconf
+}
