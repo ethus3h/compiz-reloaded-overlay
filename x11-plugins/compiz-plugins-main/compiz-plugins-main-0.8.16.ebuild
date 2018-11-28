@@ -3,7 +3,7 @@
 
 EAPI=6
 
-inherit eutils gnome2-utils
+inherit autotools eutils gnome2-utils
 
 DESCRIPTION="Compiz Window Manager: Plugins"
 HOMEPAGE="https://gitlab.com/compiz"

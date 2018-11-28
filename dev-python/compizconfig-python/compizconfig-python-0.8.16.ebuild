@@ -4,7 +4,7 @@
 EAPI=6
 
 PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
-inherit python-single-r1
+inherit autotools python-single-r1
 
 DESCRIPTION="Python bindings for libraries/plugins for compizconfig-settings"
 HOMEPAGE="https://gitlab.com/compiz"

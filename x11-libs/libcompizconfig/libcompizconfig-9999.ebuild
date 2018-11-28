@@ -2,6 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
+
 inherit autotools git-r3
 
 DESCRIPTION="CompizConfig plugin required for compizconfig-settings-manager"
