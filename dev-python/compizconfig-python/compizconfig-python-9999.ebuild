@@ -12,6 +12,7 @@ EGIT_REPO_URI="https://github.com/compiz-reloaded/compizconfig-python.git"
 
 LICENSE="GPL-2+"
 SLOT="0"
+KEYWORDS=""
 
 RDEPEND="${PYTHON_DEPS}
 	dev-python/cython[${PYTHON_USEDEP}]

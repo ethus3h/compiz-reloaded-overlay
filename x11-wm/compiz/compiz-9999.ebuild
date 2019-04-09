@@ -11,6 +11,7 @@ EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz.git"
 
 LICENSE="GPL-2+ LGPL-2.1 MIT"
 SLOT="0"
+KEYWORDS=""
 IUSE="+cairo dbus fuse gsettings +gtk gtk3 inotify marco mate +svg"
 REQUIRED_USE="marco? ( gsettings )
 	gsettings? ( gtk )"
