@@ -12,8 +12,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND=">=x11-plugins/compiz-plugins-experimental-0.8"
+S="${WORKDIR}/cube-models"
 
 src_install() {
-	insinto /usr/share/compiz/models/
+	insinto /usr/share/compiz/cube-models/
 	doins -r .
 }
