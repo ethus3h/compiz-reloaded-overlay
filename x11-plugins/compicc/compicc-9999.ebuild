@@ -11,6 +11,7 @@ EGIT_REPO_URI="https://github.com/compiz-reloaded/compicc.git"
 
 LICENSE="GPL-2+"
 SLOT="0"
+KEYWORDS=""
 
 RDEPEND="
 	dev-libs/libxml2

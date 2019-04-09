@@ -13,6 +13,7 @@ EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-boxmenu.git"
 
 LICENSE="GPL-2+"
 SLOT="0"
+KEYWORDS=""
 
 RDEPEND="${PYTHON_DEPS}
 	dev-python/lxml

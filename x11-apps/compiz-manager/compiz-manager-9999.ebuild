@@ -11,6 +11,7 @@ EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz-manager.git"
 
 LICENSE="GPL-2+"
 SLOT="0"
+KEYWORDS=""
 
 RDEPEND="x11-apps/mesa-progs
 	x11-apps/xdpyinfo

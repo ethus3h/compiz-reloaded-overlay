@@ -11,6 +11,7 @@ EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 
 LICENSE="GPL-2+ BSD"
 SLOT="0"
+KEYWORDS=""
 
 RDEPEND="
 	media-libs/opencv

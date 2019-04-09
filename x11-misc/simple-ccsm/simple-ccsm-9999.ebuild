@@ -14,6 +14,7 @@ EGIT_REPO_URI="https://github.com/compiz-reloaded/simple-ccsm.git"
 
 LICENSE="GPL-2+"
 SLOT="0"
+KEYWORDS=""
 IUSE="gtk3"
 
 DEPEND="

@@ -11,6 +11,7 @@ EGIT_REPO_URI="https://github.com/compiz-reloaded/emerald-themes.git"
 
 LICENSE="GPL-2+"
 SLOT="0"
+KEYWORDS=""
 RDEPEND=">=x11-wm/emerald-${PV}"
 
 src_prepare(){
