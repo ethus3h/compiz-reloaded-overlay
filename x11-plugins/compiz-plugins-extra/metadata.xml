@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>elliot@futuramerlin.com</email>
-		<name>Elliot Chandler</name>
+		<email>elli@futuramerlin.com</email>
+		<name>Elli Chandler</name>
 	</maintainer>
 	<maintainer type="project">
 		<email>proxy-maint@gentoo.org</email>
