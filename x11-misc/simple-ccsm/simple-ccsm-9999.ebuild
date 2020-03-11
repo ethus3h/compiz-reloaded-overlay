@@ -24,8 +24,12 @@ DEPEND="
 
 RDEPEND="
 	>=dev-python/compizconfig-python-${PV}[${PYTHON_SINGLE_USEDEP}]
-	dev-python/pycairo[${PYTHON_USEDEP}]
-	dev-python/pygobject:3[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+		dev-python/pycairo[${PYTHON_MULTI_USEDEP}]
+	')
+	$(python_gen_cond_dep '
+		dev-python/pygobject:3[${PYTHON_MULTI_USEDEP}]
+	')
 	>=x11-misc/ccsm-${PV}[gtk3=,${PYTHON_USEDEP}]
 "
 
