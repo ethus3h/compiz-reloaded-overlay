@@ -32,10 +32,10 @@ RDEPEND="${PYTHON_DEPS}
 		dev-libs/libappindicator:3
 	)
 	qt5? (
-        $(python_gen_cond_dep '
-            dev-python/PyQt5[${PYTHON_MULTI_USEDEP}]
-        ')
-    )
+		$(python_gen_cond_dep '
+			dev-python/PyQt5[${PYTHON_MULTI_USEDEP}]
+		')
+	)
 "
 
 DEPEND="${RDEPEND}"
