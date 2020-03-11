@@ -2,15 +2,14 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>elliot@futuramerlin.com</email>
-		<name>Elliot Chandler</name>
+		<email>elli@futuramerlin.com</email>
+		<name>Elli Chandler</name>
 	</maintainer>
 	<maintainer type="project">
 		<email>proxy-maint@gentoo.org</email>
 		<name>Proxy Maintainers</name>
 	</maintainer>
 	<use>
-		<flag name="gtk2">Build with GTK+2</flag>
 		<flag name="gtk3">Build with GTK+3</flag>
 		<flag name="qt5">Build with QT5</flag>
 	</use>
