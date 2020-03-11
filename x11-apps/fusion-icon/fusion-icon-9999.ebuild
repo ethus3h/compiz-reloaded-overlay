@@ -18,8 +18,10 @@ IUSE="gtk2 gtk3 qt5"
 REQUIRED_USE="?? ( gtk2 gtk3 ) ?? ( qt5 )  || ( gtk2 gtk3 qt5 )"
 
 RDEPEND="${PYTHON_DEPS}
-	>=dev-python/compizconfig-python-${PV}[${PYTHON_USEDEP}]
-	dev-python/pygobject:3[${PYTHON_USEDEP}]
+	>=dev-python/compizconfig-python-${PV}[${PYTHON_SINGLE_USEDEP}]
+	$(python_gen_cond_dep '
+		dev-python/pygobject:3[${PYTHON_MULTI_USEDEP}]
+	')
 	x11-apps/xvinfo
 	x11-apps/mesa-progs
 	>=x11-wm/compiz-${PV}
@@ -29,7 +31,11 @@ RDEPEND="${PYTHON_DEPS}
 	gtk3? (
 		dev-libs/libappindicator:3
 	)
-	qt5? ( dev-python/PyQt5[${PYTHON_USEDEP}] )
+	qt5? (
+        $(python_gen_cond_dep '
+            dev-python/PyQt5[${PYTHON_MULTI_USEDEP}]
+        ')
+    )
 "
 
 DEPEND="${RDEPEND}"
