@@ -77,7 +77,7 @@ Live ebuilds will not be automatically updated when updating your installed pack
 
 ### Getting help
 
-Feel free to ask questions in the [issue tracker](https://github.com/ethus3h/compiz-reloaded-overlay/issues). (You can also ask kyan on Freenode IRC, or send email to [elliot@futuramerlin.com](mailto:elliot@futuramerlin.com), but these are not recommended as I may not see them.)
+Feel free to ask questions in Matrix chat at [#futuramerlin:matrix.org](https://matrix.to/#/%23futuramerlin:matrix.org) [issue tracker](https://github.com/ethus3h/compiz-reloaded-overlay/issues). If I don't see something quickly,  (You can also ask kyan on Freenode IRC, or send email to [elli@futuramerlin.com](mailto:elli@futuramerlin.com), but these are not recommended as I may not see them.)
 
 For general discussion about Compiz-Reloaded, [the #compiz-reloaded channel](irc://irc.freenode.net/compiz-reloaded) on the Freenode IRC network is available.
 
