@@ -14,8 +14,8 @@ EGIT_REPO_URI="https://github.com/compiz-reloaded/fusion-icon.git"
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS=""
-IUSE="gtk2 gtk3 qt5"
-REQUIRED_USE="?? ( gtk2 gtk3 ) ?? ( qt5 )  || ( gtk2 gtk3 qt5 )"
+IUSE="gtk3 qt5"
+REQUIRED_USE="?? ( gtk3 ) ?? ( qt5 ) || ( gtk3 qt5 )"
 
 RDEPEND="${PYTHON_DEPS}
 	>=dev-python/compizconfig-python-${PV}[${PYTHON_SINGLE_USEDEP}]
@@ -25,9 +25,6 @@ RDEPEND="${PYTHON_DEPS}
 	x11-apps/xvinfo
 	x11-apps/mesa-progs
 	>=x11-wm/compiz-${PV}
-	gtk2? (
-		dev-libs/libappindicator:2
-	)
 	gtk3? (
 		dev-libs/libappindicator:3
 	)
@@ -43,8 +40,8 @@ DEPEND="${RDEPEND}"
 python_configure_all() {
 	mydistutilsargs=(
 		build
-		"--with-qt=$(usex qt5 5.0 4.0)"
-		"--with-gtk=$(usex gtk3 3.0 2.0)"
+		"--with-qt=5.0"
+		"--with-gtk=3.0"
 	)
 }
 
