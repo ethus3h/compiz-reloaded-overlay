@@ -15,7 +15,9 @@ SLOT="0"
 KEYWORDS=""
 
 RDEPEND="${PYTHON_DEPS}
-	dev-python/cython[${PYTHON_USEDEP}]
+	$(python_gen_cond_dep '
+		dev-python/cython[${PYTHON_MULTI_USEDEP}]
+	')
 	>=dev-libs/glib-2.6
 	>=x11-libs/libcompizconfig-${PV}
 "
