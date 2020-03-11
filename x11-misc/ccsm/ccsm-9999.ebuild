@@ -18,10 +18,10 @@ KEYWORDS=""
 IUSE="gtk3"
 
 RDEPEND="
+	>=dev-python/compizconfig-python-${PV}[${PYTHON_SINGLE_USEDEP}]
 	$(python_gen_cond_dep '
 		dev-python/pycairo[${PYTHON_MULTI_USEDEP}]
 	')
-	>=dev-python/compizconfig-python-${PV}[${PYTHON_SINGLE_USEDEP}]
 	$(python_gen_cond_dep '
 		dev-python/pygobject:3[${PYTHON_MULTI_USEDEP}]
 	')
