@@ -39,10 +39,9 @@ DEPEND="${RDEPEND}
 "
 
 src_prepare() {
-
-sed -i -e "/PKG_CONFIG_PATH/s:/lib:/$(get_libdir):" configure.ac
-sed -i -e "s:/lib:/$(get_libdir):"
--e "s/+=4/+=$(get_libdir | wc -c)/" libengine/themer.c
+	sed -i -e "/PKG_CONFIG_PATH/s:/lib:/$(get_libdir):" configure.ac
+	sed -i -e "s:/lib:/$(get_libdir):" \
+		-e "s/+=4/+=$(get_libdir | wc -c)/" libengine/themer.c
 	default
 	eautoreconf
 }
