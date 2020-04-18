@@ -7,7 +7,7 @@ inherit autotools gnome2-utils
 
 DESCRIPTION="OpenGL window and compositing manager"
 HOMEPAGE="https://gitlab.com/compiz"
-SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://gitlab.com/compiz/${PN}-core/uploads/198c6cfb64ddfc07eecaf5b1aa183c55/${PN}-${PV}.tar.xz"
 
 LICENSE="GPL-2+ LGPL-2.1 MIT"
 SLOT="0"
