@@ -9,7 +9,7 @@ DESCRIPTION="Extra snowflake textures for Compiz"
 HOMEPAGE="https://wiki.gentoo.org/wiki/No_homepage"
 EGIT_REPO_URI="https://github.com/ethus3h/${PN}.git"
 
-LICENSE="AGPL-3"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
 

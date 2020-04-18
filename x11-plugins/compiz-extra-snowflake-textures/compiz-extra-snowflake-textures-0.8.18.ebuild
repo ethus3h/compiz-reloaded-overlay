@@ -7,7 +7,7 @@ DESCRIPTION="Extra snowflake textures for Compiz"
 HOMEPAGE="https://wiki.gentoo.org/wiki/No_homepage"
 SRC_URI="https://github.com/ethus3h/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="AGPL-3"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
