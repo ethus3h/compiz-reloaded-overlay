@@ -6,6 +6,10 @@ Repoman status: [![Build Status](https://travis-ci.org/ethus3h/compiz-reloaded-o
 
 This overlay provides ebuilds for Compiz-Reloaded. The instructions below document how to add and use this overlay with Portage. (If you prefer to use the overlay differently than below, feel free.)
 
+## Upgrade note, 18 April 2020: Version 0.8.16 to 0.8.18
+
+When upgrading from version 0.8.16 to 0.8.18, if both compiz-plugins-extra and compiz-plugins-experimental are installed, it's necessary to upgrade compiz-plugins-experimental first of the two, because the workspacenames plugin was moved from -experimental to -extra.
+
 ### How to add the overlay
 
 #### Adding using Layman
