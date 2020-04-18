@@ -3,15 +3,15 @@
 
 EAPI=6
 
-inherit autotools git-r3 gnome2-utils
+inherit autotools gnome2-utils
 
 DESCRIPTION="OpenGL window and compositing manager"
 HOMEPAGE="https://gitlab.com/compiz"
-EGIT_REPO_URI="https://github.com/compiz-reloaded/compiz.git"
+SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2+ LGPL-2.1 MIT"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="+cairo dbus fuse gsettings +gtk gtk3 inotify marco mate +svg"
 REQUIRED_USE="marco? ( gsettings )
 	gsettings? ( gtk )"
