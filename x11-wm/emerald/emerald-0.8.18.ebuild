@@ -7,7 +7,7 @@ inherit autotools gnome2-utils
 
 DESCRIPTION="Emerald Window Decorator"
 HOMEPAGE="https://gitlab.com/compiz"
-SRC_URI="https://gitlab.com/compiz/${PN}/uploads/64c02befbf3a2fee2e1a7ab266938f9a/emerald-0.8.18.tar.xzhttps://github.com/compiz-reloaded/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://gitlab.com/compiz/${PN}/uploads/64c02befbf3a2fee2e1a7ab266938f9a/${P}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
