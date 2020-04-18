@@ -1,29 +1,33 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
 inherit autotools eutils gnome2-utils
 
-DESCRIPTION="Compiz Window Manager: Extra Plugins"
+DESCRIPTION="Compiz Window Manager: Experimental Plugins"
 HOMEPAGE="https://gitlab.com/compiz"
-SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="http://northfield.ws/projects/compiz/releases/${PV}/${P}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-IUSE="libnotify"
 
 RDEPEND="
+	gnome-base/librsvg
+	media-libs/glew:=
+	net-misc/curl
+	virtual/jpeg:0
 	>=x11-libs/compiz-bcop-0.7.3
 	<x11-libs/compiz-bcop-0.9
 	>=x11-plugins/compiz-plugins-main-0.8
 	<x11-plugins/compiz-plugins-main-0.9
+	>=x11-plugins/compiz-plugins-extra-0.8
+	<x11-plugins/compiz-plugins-extra-0.9
 	>=x11-wm/compiz-0.8
 	<x11-wm/compiz-0.9
-	virtual/jpeg:0
-	libnotify? ( x11-libs/libnotify )
 	x11-libs/cairo[X]
+	x11-libs/libXScrnSaver
 "
 
 DEPEND="${RDEPEND}
@@ -32,7 +36,7 @@ DEPEND="${RDEPEND}
 	virtual/pkgconfig
 "
 
-src_prepare() {
+src_prepare(){
 	default
 	eautoreconf
 }

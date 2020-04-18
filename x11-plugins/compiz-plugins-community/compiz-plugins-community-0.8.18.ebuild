@@ -1,32 +1,34 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
 inherit autotools eutils gnome2-utils
 
-DESCRIPTION="Compiz Window Manager: Plugins"
-HOMEPAGE="https://gitlab.com/compiz"
-SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="Compiz Window Manager: Community Plugins"
+HOMEPAGE="https://wiki.gentoo.org/wiki/No_homepage"
+SRC_URI="https://github.com/ethus3h/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-2+"
+LICENSE="GPL-2+ BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="
+	media-libs/opencv
 	gnome-base/librsvg
 	virtual/jpeg:0
-	virtual/glu
 	>=x11-libs/compiz-bcop-0.7.3
 	<x11-libs/compiz-bcop-0.9
+	>=x11-plugins/compiz-plugins-experimental-0.8
+	<x11-plugins/compiz-plugins-experimental-0.9
 	>=x11-wm/compiz-0.8
 	<x11-wm/compiz-0.9
-	x11-libs/cairo[X]
+	x11-libs/cairo
 "
 
 DEPEND="${RDEPEND}
 	>=dev-util/intltool-0.35
-	>=sys-devel/gettext-0.17
+	>=sys-devel/gettext-0.15
 	virtual/pkgconfig
 "
 
