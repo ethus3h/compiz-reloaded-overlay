@@ -15,7 +15,7 @@ RDEPEND=">=x11-plugins/compiz-plugins-experimental-0.8
 	<x11-plugins/compiz-plugins-experimental-0.9"
 
 src_install() {
-	rm .egup.tags README.md || die
-	insinto /usr/share/compiz/snow/
-	doins -r .
+	insinto /usr/share/compiz/
+	doins -r snow
+	doins -r splash
 }
