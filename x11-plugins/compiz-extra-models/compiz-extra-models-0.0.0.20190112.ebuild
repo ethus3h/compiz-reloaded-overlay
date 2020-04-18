@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -9,7 +9,7 @@ SRC_URI="https://archive.org/download/compiz-cube-models-downloaded-2019jan12/cu
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS=""
 
 RDEPEND=">=x11-plugins/compiz-plugins-experimental-0.8"
 S="${WORKDIR}/cube-models"

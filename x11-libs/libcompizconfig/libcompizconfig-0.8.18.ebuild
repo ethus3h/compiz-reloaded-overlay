@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -7,7 +7,7 @@ inherit autotools
 
 DESCRIPTION="CompizConfig plugin required for compizconfig-settings-manager"
 HOMEPAGE="https://gitlab.com/compiz"
-SRC_URI="https://github.com/compiz-reloaded/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://gitlab.com/compiz/${PN}/uploads/ada252d7170ae626651a98fd03569e1f/${P}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
