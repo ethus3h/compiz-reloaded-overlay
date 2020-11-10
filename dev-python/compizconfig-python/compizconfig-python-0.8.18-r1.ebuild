@@ -4,22 +4,23 @@
 EAPI=6
 
 PYTHON_COMPAT=( python2_7 python3_{4,5,6,7,8} )
-inherit autotools python-single-r1 git-r3
+inherit autotools python-single-r1
 
 DESCRIPTION="Python bindings for libraries/plugins for compizconfig-settings"
 HOMEPAGE="https://gitlab.com/compiz"
-EGIT_REPO_URI="https://github.com/compiz-reloaded/compizconfig-python.git"
+SRC_URI="https://gitlab.com/compiz/${PN}/uploads/11bb53f9054e95f715e631a261968e2c/${P}.tar.xz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 
 RDEPEND="${PYTHON_DEPS}
 	$(python_gen_cond_dep '
 		dev-python/cython[${PYTHON_MULTI_USEDEP}]
 	')
 	>=dev-libs/glib-2.6
-	>=x11-libs/libcompizconfig-${PV}
+	>=x11-libs/libcompizconfig-0.6.99
+	<x11-libs/libcompizconfig-0.9
 "
 
 DEPEND="${RDEPEND}
