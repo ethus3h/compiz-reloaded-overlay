@@ -89,4 +89,4 @@ Good luck!
 
 ## Issues and merge requests
 
-If I don't respond, please do ping me on Matrix (see the "Getting help" section).
+If I need to see something, a message on Matrix (see the "Getting help" section) is the best way. I'm likely to forget to look at GitHub often, but should check Matrix pretty much daily.
