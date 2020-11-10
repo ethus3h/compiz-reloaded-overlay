@@ -86,3 +86,7 @@ Feel free to ask questions [issue tracker](https://github.com/ethus3h/compiz-rel
 For general discussion about Compiz-Reloaded, [the #compiz-reloaded channel](irc://irc.freenode.net/compiz-reloaded) on the Freenode IRC network is available.
 
 Good luck!
+
+## Issues and merge requests
+
+If I don't respond, please do ping me on Matrix (see the "Getting help" section).
