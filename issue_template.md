@@ -1,4 +1,4 @@
 ---
 name: Issue report template
-about: Use this template for tracking new features.
+about: Encourage report in Matrix
 ---
