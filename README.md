@@ -53,7 +53,7 @@ To see how to do this, see the Gentoo wiki pages at https://wiki.gentoo.org/wiki
 These packages are provided by this overlay, with both version and live ebuilds available for each. Once the overlay is installed and keywords have been set, these can be `emerge`d as with any other Gentoo package.
 
 - dev-python/compizconfig-python
-- ~~x11-apps/compiz-boxmenu
+- ~~x11-apps/compiz-boxmenu~~ Not currently available pending resolution of https://gitlab.com/compiz/compiz-boxmenu/-/issues/7
 - x11-apps/compiz-manager
 - x11-apps/fusion-icon
 - x11-libs/compiz-bcop
