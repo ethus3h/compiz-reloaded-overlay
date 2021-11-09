@@ -87,6 +87,6 @@ For general discussion about Compiz-Reloaded, [the #compiz-reloaded channel](irc
 
 Good luck!
 
-## Issues and merge requests — I probably won't see them quickly on GitHub! Best to message me on Matrix.
+## Issues and merge requests — I might not see them quickly on GitHub; you can also message me on Matrix.
 
-If I need to see something, a message on Matrix ([#futuramerlin:matrix.org](https://matrix.to/#/%23futuramerlin:matrix.org)) is the best way. I'm likely to forget to look at GitHub often, but should check Matrix pretty much daily.
+Feel free to send me a message on Matrix ([#futuramerlin:matrix.org](https://matrix.to/#/%23futuramerlin:matrix.org)) to mention issues/merge requests. I'm likely to forget to look at GitHub often, but should check Matrix pretty much daily.
