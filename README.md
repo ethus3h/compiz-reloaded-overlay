@@ -1,4 +1,4 @@
-# compiz-reloaded-overlay
+# compiz-reloaded-overlay (No longer maintained)
 
 ## Info
 
